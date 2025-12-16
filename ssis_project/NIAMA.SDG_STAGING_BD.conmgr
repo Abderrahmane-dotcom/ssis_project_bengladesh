@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NIAMA.SDG_STAGING_BD"
+  DTS:DTSID="{1EA8ED6B-AFF4-4333-94C1-02BE036B2F35}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NIAMA;Initial Catalog=SDG_STAGING_BD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ssis_project-{1EA8ED6B-AFF4-4333-94C1-02BE036B2F35}NIAMA.SDG_STAGING_BD;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
