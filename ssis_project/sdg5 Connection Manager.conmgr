@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\data\SDG5_Bangladesh_2024_2025_WITH_532_551_A1B .csv">
+      DTS:ConnectionString="C:\data\SDG5_Bangladesh_2024_2025_WITH_532_551_A1B.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Region"
-          DTS:DTSID="{8EB91199-B7FA-40B9-92A9-9846D41E3E76}"
+          DTS:DTSID="{C325581E-783F-426B-8533-5E07810BB0EE}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +30,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="geographical_location"
-          DTS:DTSID="{B40BEAB6-178B-446F-A5E1-7A8E4195F956}"
+          DTS:DTSID="{9C17FCBF-713E-4F89-A107-92FBDCFBD068}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="form_of_violence"
-          DTS:DTSID="{80913A8B-E539-43FF-9C0D-753461D719AF}"
+          DTS:DTSID="{6B1785AB-3DA4-4DC9-9942-18FBED17027B}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Time"
-          DTS:DTSID="{16E5BA59-4B81-46AF-9301-F89434B694D2}"
+          DTS:DTSID="{3F2B6841-74A9-468E-8707-0EE072230C28}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="5 2 1"
-          DTS:DTSID="{D6058E51-7A86-4DFE-90EA-27060AB32C3C}"
+          DTS:DTSID="{5BFDDA42-1828-44CB-BED0-D3729FAE3679}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="5 2 2"
-          DTS:DTSID="{7CCE7A5C-99F5-4BE9-9FFF-8F95CFB349C8}"
+          DTS:DTSID="{59543219-81BF-4E6E-8203-87DD3F1EE031}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="5 3 1"
-          DTS:DTSID="{15BE6B1C-4B46-4749-9DD0-238F270F8734}"
+          DTS:DTSID="{B755484F-6199-407A-BFBC-68590C9FF253}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="5 3 2"
-          DTS:DTSID="{B71B8DF5-5218-4F1E-89AE-D651047A4295}"
+          DTS:DTSID="{E3FD5DF1-0009-4EFB-9A5F-095DC70E46F7}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="5 5 1"
-          DTS:DTSID="{BB7A7C3C-0D04-4BB0-BDD9-FCF83E2A571C}"
+          DTS:DTSID="{E92F1256-6745-47D1-8058-9ABA505A9D18}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="5 a 1 b"
-          DTS:DTSID="{3E7EE752-B91B-47EC-9FDF-13366ECB3027}"
+          DTS:DTSID="{B691F67D-DB00-4426-992C-C0D8E4F5B7C6}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

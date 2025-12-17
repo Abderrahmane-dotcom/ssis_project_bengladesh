@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\data\SDG2_Bangladesh_2024_2025_CORRECTED_GRAINS.csv">
+      DTS:ConnectionString="C:\data\SDG2_Bangladesh_2024_2025.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="sex"
-          DTS:DTSID="{01502832-9051-4204-B45C-1C11CE087447}"
+          DTS:DTSID="{83A4C873-CD81-42F9-B2BE-8F3F1DF3C101}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +30,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="age_group"
-          DTS:DTSID="{45603D8A-1CB9-4DF1-8E9D-74C5587BEFB1}"
+          DTS:DTSID="{29CEFBA9-BAD7-4982-A6BE-FDA121CC8D89}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Region"
-          DTS:DTSID="{D685877F-6B8C-43D5-9B7E-4CF0FCAD57B3}"
+          DTS:DTSID="{AB0CF4F8-6842-4E80-9146-D315B4014CFA}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="geographical_location"
-          DTS:DTSID="{F6286FDF-8E5A-4001-8F1C-6D7EEEAEC0D9}"
+          DTS:DTSID="{2D002E82-437E-4191-919D-6914D04E7ED2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Time"
-          DTS:DTSID="{605BF1FB-FFD9-461A-B5D4-8104C679F208}"
+          DTS:DTSID="{B6217596-9836-490F-8395-8D58EA18DEB6}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="2 1 1"
-          DTS:DTSID="{3FE556A5-3ED6-4241-BACB-D71A35FC6DE8}"
+          DTS:DTSID="{573967E0-7FCA-4C67-A919-C996BF45C1E8}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="2 1 2"
-          DTS:DTSID="{6EA42216-B512-4F14-AA32-DAD8A9A6230F}"
+          DTS:DTSID="{5D8534EE-5962-4A2A-AC08-5E7725876BF9}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="2 2 1"
-          DTS:DTSID="{9D82C853-A3EF-4D2C-A5C4-EDF535E15D16}"
+          DTS:DTSID="{323CA662-9344-4875-BD60-0AFB63A28B80}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="2 2 2"
-          DTS:DTSID="{F48C2A37-A8F4-4A2D-9E9B-6A2B26677BEE}"
+          DTS:DTSID="{51E0BFCD-C68B-42C1-8AE4-5E8F0684313F}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="2 4 1"
-          DTS:DTSID="{7B100039-9047-453A-A280-EA2D4659A3ED}"
+          DTS:DTSID="{FCFBF247-6B4B-4754-8BF9-93F93DBA8B44}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="2 5 1"
-          DTS:DTSID="{5A53B542-C02B-4D75-8F4D-F72EEDE9AA09}"
+          DTS:DTSID="{341C88F3-19DC-4128-A1BE-1D44050CFE5F}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

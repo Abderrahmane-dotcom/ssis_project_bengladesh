@@ -3,10 +3,12 @@
   DTS:ObjectName="NIAMA.SDG_STAGING_BD"
   DTS:DTSID="{1EA8ED6B-AFF4-4333-94C1-02BE036B2F35}"
   DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">"Provider=SQLNCLI11.1;Data Source=" + @[$Project::pServerName] + ";Initial Catalog=SDG_STAGING_BD;Integrated Security=SSPI;"</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=NIAMA;Initial Catalog=SDG_STAGING_BD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ssis_project-{1EA8ED6B-AFF4-4333-94C1-02BE036B2F35}NIAMA.SDG_STAGING_BD;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=DESKTOP-BLJJA5T\MSSQLSERVER01;Initial Catalog=SDG_STAGING_BD;Provider=SQLNCLI11.1;Integrated Security=SSPI;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
