@@ -7,12 +7,12 @@
   DTS:CreatorName="NIAMA\nhdad"
   DTS:DTSID="{0C8E8182-2AB3-4783-99BF-9E211CF7D0DD}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5467.0"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="stg_package"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{B610E636-2CED-44A3-A95C-2D1420275ACC}">
+  DTS:VersionBuild="28"
+  DTS:VersionGUID="{0596C201-FA8F-458C-AB74-08841218AACA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -725,7 +725,6 @@
       DTS:refId="Package\sdg10"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{086f795a-29bb-441f-876c-d8c9bafafbd8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1471,7 +1470,6 @@
       DTS:refId="Package\sdg2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{B3FB52D0-BDAD-43E1-93BF-648D8E7FC4E0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2750,7 +2748,6 @@
       DTS:refId="Package\sdg6"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{50DDB729-EBC3-4517-8DBA-9591A08730D6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3410,7 +3407,6 @@
       DTS:refId="Package\sdg7"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{48A192F4-13EE-4125-9B3F-9AD9E7B418B9}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4030,7 +4026,6 @@
       DTS:refId="Package\sdg9"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{E56E4A98-D513-4AEF-A70D-C625D50D7746}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
