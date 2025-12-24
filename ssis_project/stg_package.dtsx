@@ -7,12 +7,12 @@
   DTS:CreatorName="NIAMA\nhdad"
   DTS:DTSID="{0C8E8182-2AB3-4783-99BF-9E211CF7D0DD}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LastModifiedProductVersion="17.0.1008.3"
   DTS:LocaleID="1033"
   DTS:ObjectName="stg_package"
   DTS:PackageType="5"
-  DTS:VersionBuild="28"
-  DTS:VersionGUID="{0596C201-FA8F-458C-AB74-08841218AACA}">
+  DTS:VersionBuild="37"
+  DTS:VersionGUID="{105E97C7-F4A8-40B2-94F7-FEC6C861486B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -70,7 +70,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\sdg1\sdg1.Outputs[Flat File Source Output].ExternalColumns[sex]"
-                      length="50"
+                      length="100"
                       lineageId="Package\sdg1\sdg1.Outputs[Flat File Source Output].Columns[sex]"
                       name="sex"
                       truncationRowDisposition="FailComponent">
@@ -334,7 +334,7 @@
                       refId="Package\sdg1\sdg1.Outputs[Flat File Source Output].ExternalColumns[sex]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="100"
                       name="sex" />
                     <externalMetadataColumn
                       refId="Package\sdg1\sdg1.Outputs[Flat File Source Output].ExternalColumns[age_group]"
@@ -458,7 +458,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -509,7 +509,7 @@
                       refId="Package\sdg1\sdg1 dest.Inputs[OLE DB Destination Input].Columns[sex]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="100"
                       cachedName="sex"
                       externalMetadataColumnId="Package\sdg1\sdg1 dest.Inputs[OLE DB Destination Input].ExternalColumns[sex]"
                       lineageId="Package\sdg1\sdg1.Outputs[Flat File Source Output].Columns[sex]" />
@@ -725,6 +725,7 @@
       DTS:refId="Package\sdg10"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{086f795a-29bb-441f-876c-d8c9bafafbd8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1189,7 +1190,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1470,6 +1471,7 @@
       DTS:refId="Package\sdg2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{B3FB52D0-BDAD-43E1-93BF-648D8E7FC4E0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1878,7 +1880,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2129,6 +2131,7 @@
       DTS:refId="Package\sdg5"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{33F2F8BF-FDB4-4560-8E0D-D2E8D72A537B}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2509,7 +2512,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2748,6 +2751,7 @@
       DTS:refId="Package\sdg6"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{50DDB729-EBC3-4517-8DBA-9591A08730D6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3156,7 +3160,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3407,6 +3411,7 @@
       DTS:refId="Package\sdg7"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{48A192F4-13EE-4125-9B3F-9AD9E7B418B9}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3787,7 +3792,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4026,6 +4031,7 @@
       DTS:refId="Package\sdg9"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{E56E4A98-D513-4AEF-A70D-C625D50D7746}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4294,7 +4300,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4473,43 +4479,43 @@
     </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
-<!--If you manually edit this section and make a mistake, you can delete it. -->
-<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
 <Objects
   Version="8">
-  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="100.8,41.6"
           Id="Package\sdg1"
           TopLeft="81.2499963678421,77.9999991435754" />
         <NodeLayout
-          Size="109.333333333334,42.6666666666667"
+          Size="109.6,42.4"
           Id="Package\sdg10"
           TopLeft="229.999989718199,153.263156211938" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="102.4,42.4"
           Id="Package\sdg2"
           TopLeft="209.374990640208,78.6842096623787" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="102.4,42.4"
           Id="Package\sdg5"
           TopLeft="346.87498449348,81.4210517375919" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="102.4,42.4"
           Id="Package\sdg6"
           TopLeft="620.624972255901,91.6842095196413" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="100.8,41.6"
           Id="Package\sdg7"
           TopLeft="486.874978234992,86.8947358880182" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="102.4,42.4"
           Id="Package\sdg9"
           TopLeft="62.4999972060325,151.894735174331" />
       </GraphLayout>
@@ -4521,11 +4527,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="125.333333333334,42.6666666666667"
+          Size="125.6,42.4"
           Id="Package\sdg1\sdg1 dest"
           TopLeft="161.333328525226,117.999996483326" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="102.4,42.4"
           Id="Package\sdg1\sdg1"
           TopLeft="159.153841410692,48.3076908680109" />
         <EdgeLayout
@@ -4647,13 +4653,13 @@
     design-time-name="Package\sdg2">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="125.333333333334,42.6666666666667"
+          Size="125.6,42.4"
           Id="Package\sdg2\sdg2 dest"
           TopLeft="73.9999995827674,148.666664024194" />
         <NodeLayout
-          Size="102.666666666667,42.6666666666667"
+          Size="102.4,42.4"
           Id="Package\sdg2\sdg2"
           TopLeft="60,60" />
         <EdgeLayout
@@ -4687,9 +4693,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8.2127476044496,27.9999986787637,41.758828125,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4699,7 +4703,7 @@
     design-time-name="Package\sdg5">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="125.333333333334,42.6666666666667"
           Id="Package\sdg5\sdg5 dest"
@@ -4739,7 +4743,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

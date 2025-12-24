@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE"
+  DTS:DTSID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LAPTOP-G6QLIJHM;Initial Catalog=SDG_DATAWAREHOUSE;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ssis_project-{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
