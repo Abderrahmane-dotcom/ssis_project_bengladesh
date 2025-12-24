@@ -7,12 +7,12 @@
   DTS:CreatorName="MARIA\Meriem"
   DTS:DTSID="{F6A75274-4A1E-4FB5-BA98-ED119123CEA3}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="17.0.1008.3"
+  DTS:LastModifiedProductVersion="16.0.5467.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="DWh"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{5D99F200-5D5A-44CE-AF7E-FE0862CFC8DC}">
+  DTS:VersionBuild="33"
+  DTS:VersionGUID="{8DCA1A6F-0A17-40BA-959D-B1D7908D99A5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -21,6 +21,7 @@
       DTS:refId="Package\AgeGroup_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{2AF399D5-A92B-4B28-A44B-05A93BFDEE82}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -56,7 +57,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -177,7 +178,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT age_group AS age_group FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT age_group AS age_group FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -279,6 +280,7 @@
       DTS:refId="Package\Disability_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{779AB1C4-8D47-4F96-B4A9-1143FF1E0BB7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -314,7 +316,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -435,7 +437,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT disability AS disability FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT disability AS disability FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -537,6 +539,7 @@
       DTS:refId="Package\Employement_Status_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{21DFAF2B-EFC2-4E00-BC3E-C2EAA6CBED60}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -572,7 +575,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -693,7 +696,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT employment_status AS employment_status FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT employment_status AS employment_status FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -795,6 +798,7 @@
       DTS:refId="Package\Fact_AgriWaterEnergy"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tâche de flux de données"
+      DTS:Disabled="True"
       DTS:DTSID="{EE479A2F-3312-4424-911A-6B22E9CFF309}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -810,6 +814,7 @@
       DTS:refId="Package\Form_of_Violence_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{397F5117-DB0D-4FBA-9E62-5F69A9CF12FF}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -845,7 +850,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -966,7 +971,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT form_of_violence AS form_of_violence FROM staging.stg_sdg5</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT form_of_violence AS form_of_violence FROM staging.stg_sdg5</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -1068,6 +1073,7 @@
       DTS:refId="Package\Geographical_Location_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{4B4FA814-6EDF-4614-B0E7-CBEBAC0E7803}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1103,7 +1109,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1224,7 +1230,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT geographical_location AS geographical_location FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT geographical_location AS geographical_location FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -1326,6 +1332,7 @@
       DTS:refId="Package\Region_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{387EF387-C1D2-4E21-9A51-DDBE8DAE74EA}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1361,7 +1368,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1482,7 +1489,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT Region AS Region FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT Region AS Region FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -1619,7 +1626,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1740,7 +1747,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT sex AS SexCode
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT sex AS SexCode
 FROM staging.stg_sdg1;</property>
                 <property
                   dataType="System.String"
@@ -1843,6 +1850,7 @@ FROM staging.stg_sdg1;</property>
       DTS:refId="Package\Time_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{6C38EF05-05DD-4941-9D7F-100852BBE527}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1878,7 +1886,7 @@ FROM staging.stg_sdg1;</property>
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1995,7 +2003,7 @@ FROM staging.stg_sdg1;</property>
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT Year AS Year FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT Year AS Year FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -2107,79 +2115,79 @@ FROM staging.stg_sdg1;</property>
       DTS:To="Package\Fact_AgriWaterEnergy" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
-<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
-<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
   Version="8">
-  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="150.4,42.4"
+          Size="150.666666666667,42.6666666666667"
           Id="Package\AgeGroup_Dim"
-          TopLeft="186.874991646037,55.89999733448" />
+          TopLeft="190.347213816519,61.6777750089431" />
         <NodeLayout
-          Size="146.4,42.4"
+          Size="146.666666666667,42.6666666666667"
           Id="Package\Disability_Dim"
           TopLeft="737.91662886946,60.2222147290359" />
         <NodeLayout
-          Size="204,42.4"
+          Size="204,42.6666666666667"
           Id="Package\Employement_Status_Dim"
           TopLeft="1154.33525848183,66.2690394304956" />
         <NodeLayout
-          Size="187.2,41.6"
+          Size="184,41.3333333333334"
+          Id="Package\Fact_AgriWaterEnergy"
+          TopLeft="109.126971100296,228.428570171576" />
+        <NodeLayout
+          Size="187.333333333334,41.3333333333334"
           Id="Package\Form_of_Violence_Dim"
           TopLeft="918.829315410702,66.1603110941224" />
         <NodeLayout
-          Size="210.4,42.4"
+          Size="210.666666666667,42.6666666666667"
           Id="Package\Geographical_Location_Dim"
           TopLeft="503.791644175227,60.3666661087674" />
         <NodeLayout
-          Size="136,42.4"
+          Size="136,42.6666666666667"
           Id="Package\Region_Dim"
           TopLeft="353.749984186143,59.066666170756" />
         <NodeLayout
-          Size="121.6,42.4"
+          Size="121.333333333334,42.6666666666667"
           Id="Package\Sex_Dim"
           TopLeft="54.9999975413086,56.549997303486" />
         <NodeLayout
-          Size="128,42.4"
+          Size="128,42.6666666666667"
           Id="Package\Time_Dim"
           TopLeft="1386.79358205594,62.8952283388851" />
-        <NodeLayout
-          Size="184,41.6"
-          Id="Package\Fact_AgriWaterEnergy"
-          TopLeft="286.904746228978,258.761902962507" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="115.799997541309,98.949997303486">
+          TopLeft="115.666664207975,99.2166639701527">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="263.104748687669,159.811905659021"
+              EndConnector="56.1269735589869,129.211906201423"
               Start="0,0"
-              End="263.104748687669,152.311905659021">
+              End="56.1269735589869,121.711906201423">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,75.9059528295104" />
+                    End="0,72.8588062749845" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,75.9059528295104"
-                    Point2="0,79.9059528295104"
-                    Point3="4,79.9059528295104" />
+                    Point1="0,72.8588062749845"
+                    Point2="0,76.8588062749845"
+                    Point3="4,76.8588062749845" />
                   <mssgle:LineSegment
-                    End="259.104748687669,79.9059528295104" />
+                    End="52.1269735589869,76.8588062749845" />
                   <mssgle:CubicBezierSegment
-                    Point1="259.104748687669,79.9059528295104"
-                    Point2="263.104748687669,79.9059528295104"
-                    Point3="263.104748687669,83.9059528295104" />
+                    Point1="52.1269735589869,76.8588062749845"
+                    Point2="56.1269735589869,76.8588062749845"
+                    Point3="56.1269735589869,80.8588062749845" />
                   <mssgle:LineSegment
-                    End="263.104748687669,152.311905659021" />
+                    End="56.1269735589869,121.711906201423" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2190,30 +2198,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="262.074991646037,98.29999733448">
+          TopLeft="265.680547149852,104.34444167561">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="55.986902337953,160.461905628027"
+              EndConnector="-35.2202427162236,124.084128495966"
               Start="0,0"
-              End="55.986902337953,152.961905628027">
+              End="-35.2202427162236,116.584128495966">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,91.447168002878" />
+                    End="0,69.8086626398419" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,91.447168002878"
-                    Point2="0,95.447168002878"
-                    Point3="4,95.447168002878" />
+                    Point1="0,69.8086626398419"
+                    Point2="0,73.8086626398419"
+                    Point3="-4,73.8086626398419" />
                   <mssgle:LineSegment
-                    End="51.986902337953,95.447168002878" />
+                    End="-31.2202427162236,73.8086626398419" />
                   <mssgle:CubicBezierSegment
-                    Point1="51.986902337953,95.447168002878"
-                    Point2="55.986902337953,95.447168002878"
-                    Point3="55.986902337953,99.447168002878" />
+                    Point1="-31.2202427162236,73.8086626398419"
+                    Point2="-35.2202427162236,73.8086626398419"
+                    Point3="-35.2202427162236,77.8086626398419" />
                   <mssgle:LineSegment
-                    End="55.986902337953,152.961905628027" />
+                    End="-35.2202427162236,116.584128495966" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2275,6 +2283,27 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\AgeGroup_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\AgeGroup_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Disability_Dim">
     <LayoutInfo>
@@ -2325,6 +2354,27 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Disability_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Disability_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Employement_Status_Dim">
     <LayoutInfo>
@@ -2375,6 +2425,27 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Employement_Status_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Employement_Status_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Form_of_Violence_Dim">
     <LayoutInfo>
@@ -2413,6 +2484,27 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Form_of_Violence_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Form_of_Violence_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Geographical_Location_Dim">
     <LayoutInfo>
@@ -2463,6 +2555,27 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Geographical_Location_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Geographical_Location_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Region_Dim">
     <LayoutInfo>
@@ -2513,17 +2626,38 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Region_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Region_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Sex_Dim">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171.333333333334,41.3333333333334"
           Id="Package\Sex_Dim\Destination OLE DB"
           TopLeft="169.99999071161,162.933332200315" />
         <NodeLayout
-          Size="152,41.6"
+          Size="152,41.3333333333334"
           Id="Package\Sex_Dim\Source OLE DB"
           TopLeft="176.666657014026,69.333332851198" />
         <EdgeLayout
@@ -2551,6 +2685,27 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sex_Dim\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sex_Dim\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Time_Dim">
     <LayoutInfo>
@@ -2601,153 +2756,6 @@ FROM staging.stg_sdg1;</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sex_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sex_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\AgeGroup_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\AgeGroup_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Region_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Region_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Geographical_Location_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Geographical_Location_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Disability_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Disability_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Form_of_Violence_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Form_of_Violence_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Employement_Status_Dim\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Employement_Status_Dim\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Time_Dim\Destination OLE DB">
     <Properties>

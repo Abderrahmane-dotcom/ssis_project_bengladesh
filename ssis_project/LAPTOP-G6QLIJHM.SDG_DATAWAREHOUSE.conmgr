@@ -3,10 +3,12 @@
   DTS:ObjectName="LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE"
   DTS:DTSID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}"
   DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">"Provider=SQLNCLI11.1;Data Source=" + @[$Project::pServerName] + ";Initial Catalog=SDG_DATAWAREHOUSE;Integrated Security=SSPI;"</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=LAPTOP-G6QLIJHM;Initial Catalog=SDG_DATAWAREHOUSE;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ssis_project-{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=DESKTOP-BLJJA5T\MSSQLSERVER01;Initial Catalog=SDG_DATAWAREHOUSE;Provider=SQLNCLI11.1;Integrated Security=SSPI;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
