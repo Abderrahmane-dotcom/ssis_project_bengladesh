@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="stg_package"
   DTS:PackageType="5"
-  DTS:VersionBuild="40"
-  DTS:VersionGUID="{A9C5C801-FD35-4764-BF51-2668ACC0A232}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{E433417C-45D1-46F1-804D-C2D54F85902E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -4509,7 +4509,7 @@
         <NodeLayout
           Size="102.666666666667,42.6666666666667"
           Id="Package\sdg6"
-          TopLeft="620.624972255901,91.6842095196413" />
+          TopLeft="371.874975962565,151.484208450334" />
         <NodeLayout
           Size="100.666666666667,41.3333333333334"
           Id="Package\sdg7"
@@ -4657,11 +4657,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="125.6,42.4"
+          Size="125.333333333334,42.6666666666667"
           Id="Package\sdg2\sdg2 dest"
           TopLeft="73.9999995827674,148.666664024194" />
         <NodeLayout
-          Size="102.4,42.4"
+          Size="102.666666666667,42.6666666666667"
           Id="Package\sdg2\sdg2"
           TopLeft="60,60" />
         <EdgeLayout
@@ -4696,7 +4696,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-8.2127476044496,27.9999986787637,41.758828125,9.6025390625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

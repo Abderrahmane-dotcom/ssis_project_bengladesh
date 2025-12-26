@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="DWh"
   DTS:PackageType="5"
-  DTS:VersionBuild="58"
-  DTS:VersionGUID="{690FDD3C-D130-42CC-AA94-883DC632A394}">
+  DTS:VersionBuild="62"
+  DTS:VersionGUID="{B0085840-B964-4A57-BE16-CC3A8B9FBD8D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1344,6 +1344,247 @@
           version="1">
           <components>
             <component
+              refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Fact_BasicServicesFoodWaterElectricity"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dwh].[Fact_AgriWaterEnergy]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Connections[OleDbConnection]"
+                  connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Prop_sust_agri_area_2_4_1]"
+                      cachedDataType="numeric"
+                      cachedName="Prop_sust_agri_area_2_4_1"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Prop_sust_agri_area_2_4_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Prop_sust_agri_area_2_4_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Plant_Genetic_Res_Sec_2_5_1]"
+                      cachedDataType="i4"
+                      cachedName="Plant_Genetic_Res_Sec_2_5_1"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Plant_Genetic_Res_Sec_2_5_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Plant_Genetic_Res_Sec_2_5_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Prop_wastewater_treated_6_3_1]"
+                      cachedDataType="numeric"
+                      cachedName="Prop_wastewater_treated_6_3_1"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Prop_wastewater_treated_6_3_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Prop_wastewater_treated_6_3_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Water_use_eff_change_6_4_1]"
+                      cachedDataType="numeric"
+                      cachedName="Water_use_eff_change_6_4_1"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Water_use_eff_change_6_4_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Water_use_eff_change_6_4_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Water_stress_level_6_4_2]"
+                      cachedDataType="numeric"
+                      cachedName="Water_stress_level_6_4_2"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Water_stress_level_6_4_2]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Water_stress_level_6_4_2]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[IWRM_impl_score_6_5_1]"
+                      cachedDataType="i4"
+                      cachedName="IWRM_impl_score_6_5_1"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[IWRM_impl_score_6_5_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[IWRM_impl_score_6_5_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Renew_energy_share_7_2_1]"
+                      cachedDataType="numeric"
+                      cachedName="Renew_energy_share_7_2_1"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Renew_energy_share_7_2_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Renew_energy_share_7_2_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Energy_intensity_GDP_7_3_1]"
+                      cachedDataType="r8"
+                      cachedName="Energy_intensity_GDP_7_3_1"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Energy_intensity_GDP_7_3_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Energy_intensity_GDP_7_3_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[Energy_eff_inv_GDP_7_b_1]"
+                      cachedDataType="numeric"
+                      cachedName="Energy_eff_inv_GDP_7_b_1"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Energy_eff_inv_GDP_7_b_1]"
+                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Energy_eff_inv_GDP_7_b_1]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[TimeKey]"
+                      cachedDataType="i4"
+                      cachedName="TimeKey"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[TimeKey]"
+                      lineageId="Package\Load_fact_agri_water_energy\LKP_dimTime.Outputs[Lookup Match Output].Columns[TimeKey]" />
+                    <inputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].Columns[RegionKey]"
+                      cachedDataType="i4"
+                      cachedName="RegionKey"
+                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[RegionKey]"
+                      lineageId="Package\Load_fact_agri_water_energy\LKP_dimRegion.Outputs[Lookup Match Output].Columns[RegionKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[ID_Key]"
+                      dataType="i8"
+                      name="ID_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[TimeKey]"
+                      dataType="i4"
+                      name="TimeKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[RegionKey]"
+                      dataType="i4"
+                      name="RegionKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Prop_sust_agri_area_2_4_1]"
+                      dataType="numeric"
+                      name="Prop_sust_agri_area_2_4_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Plant_Genetic_Res_Sec_2_5_1]"
+                      dataType="i4"
+                      name="Plant_Genetic_Res_Sec_2_5_1" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Prop_wastewater_treated_6_3_1]"
+                      dataType="numeric"
+                      name="Prop_wastewater_treated_6_3_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Water_use_eff_change_6_4_1]"
+                      dataType="numeric"
+                      name="Water_use_eff_change_6_4_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Water_stress_level_6_4_2]"
+                      dataType="numeric"
+                      name="Water_stress_level_6_4_2"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[IWRM_impl_score_6_5_1]"
+                      dataType="i4"
+                      name="IWRM_impl_score_6_5_1" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Renew_energy_share_7_2_1]"
+                      dataType="numeric"
+                      name="Renew_energy_share_7_2_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Energy_intensity_GDP_7_3_1]"
+                      dataType="r8"
+                      name="Energy_intensity_GDP_7_3_1" />
+                    <externalMetadataColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input].ExternalColumns[Energy_eff_inv_GDP_7_b_1]"
+                      dataType="numeric"
+                      name="Energy_eff_inv_GDP_7_b_1"
+                      precision="5"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Load_fact_agri_water_energy\LKP_dimRegion"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
@@ -1654,247 +1895,6 @@ where [refTable].[Year] = ?</property>
                       refId="Package\Load_fact_agri_water_energy\LKP_dimTime.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Load_fact_agri_water_energy\LKP_dimTime.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Load_fact_agri_water_energy\OLE DB Destination"
-              componentClassID="Microsoft.OLEDBDestination"
-              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="OLE DB Destination"
-              name="OLE DB Destination"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dwh].[Fact_AgriWaterEnergy]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">3</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepIdentity">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
-                  name="FastLoadMaxInsertCommitSize">2147483647</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input]"
-                  errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="OLE DB Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Prop_sust_agri_area_2_4_1]"
-                      cachedDataType="numeric"
-                      cachedName="Prop_sust_agri_area_2_4_1"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Prop_sust_agri_area_2_4_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Prop_sust_agri_area_2_4_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Plant_Genetic_Res_Sec_2_5_1]"
-                      cachedDataType="i4"
-                      cachedName="Plant_Genetic_Res_Sec_2_5_1"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Plant_Genetic_Res_Sec_2_5_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Plant_Genetic_Res_Sec_2_5_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Prop_wastewater_treated_6_3_1]"
-                      cachedDataType="numeric"
-                      cachedName="Prop_wastewater_treated_6_3_1"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Prop_wastewater_treated_6_3_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Prop_wastewater_treated_6_3_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Water_use_eff_change_6_4_1]"
-                      cachedDataType="numeric"
-                      cachedName="Water_use_eff_change_6_4_1"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Water_use_eff_change_6_4_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Water_use_eff_change_6_4_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Water_stress_level_6_4_2]"
-                      cachedDataType="numeric"
-                      cachedName="Water_stress_level_6_4_2"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Water_stress_level_6_4_2]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Water_stress_level_6_4_2]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[IWRM_impl_score_6_5_1]"
-                      cachedDataType="i4"
-                      cachedName="IWRM_impl_score_6_5_1"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IWRM_impl_score_6_5_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[IWRM_impl_score_6_5_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Renew_energy_share_7_2_1]"
-                      cachedDataType="numeric"
-                      cachedName="Renew_energy_share_7_2_1"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Renew_energy_share_7_2_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Renew_energy_share_7_2_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Energy_intensity_GDP_7_3_1]"
-                      cachedDataType="r8"
-                      cachedName="Energy_intensity_GDP_7_3_1"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Energy_intensity_GDP_7_3_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Energy_intensity_GDP_7_3_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Energy_eff_inv_GDP_7_b_1]"
-                      cachedDataType="numeric"
-                      cachedName="Energy_eff_inv_GDP_7_b_1"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Energy_eff_inv_GDP_7_b_1]"
-                      lineageId="Package\Load_fact_agri_water_energy\staging.Outputs[OLE DB Source Output].Columns[Energy_eff_inv_GDP_7_b_1]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TimeKey]"
-                      cachedDataType="i4"
-                      cachedName="TimeKey"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TimeKey]"
-                      lineageId="Package\Load_fact_agri_water_energy\LKP_dimTime.Outputs[Lookup Match Output].Columns[TimeKey]" />
-                    <inputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[RegionKey]"
-                      cachedDataType="i4"
-                      cachedName="RegionKey"
-                      externalMetadataColumnId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RegionKey]"
-                      lineageId="Package\Load_fact_agri_water_energy\LKP_dimRegion.Outputs[Lookup Match Output].Columns[RegionKey]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_Key]"
-                      dataType="i8"
-                      name="ID_Key" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TimeKey]"
-                      dataType="i4"
-                      name="TimeKey" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RegionKey]"
-                      dataType="i4"
-                      name="RegionKey" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Prop_sust_agri_area_2_4_1]"
-                      dataType="numeric"
-                      name="Prop_sust_agri_area_2_4_1"
-                      precision="5"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Plant_Genetic_Res_Sec_2_5_1]"
-                      dataType="i4"
-                      name="Plant_Genetic_Res_Sec_2_5_1" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Prop_wastewater_treated_6_3_1]"
-                      dataType="numeric"
-                      name="Prop_wastewater_treated_6_3_1"
-                      precision="5"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Water_use_eff_change_6_4_1]"
-                      dataType="numeric"
-                      name="Water_use_eff_change_6_4_1"
-                      precision="5"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Water_stress_level_6_4_2]"
-                      dataType="numeric"
-                      name="Water_stress_level_6_4_2"
-                      precision="5"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IWRM_impl_score_6_5_1]"
-                      dataType="i4"
-                      name="IWRM_impl_score_6_5_1" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Renew_energy_share_7_2_1]"
-                      dataType="numeric"
-                      name="Renew_energy_share_7_2_1"
-                      precision="5"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Energy_intensity_GDP_7_3_1]"
-                      dataType="r8"
-                      name="Energy_intensity_GDP_7_3_1" />
-                    <externalMetadataColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Energy_eff_inv_GDP_7_b_1]"
-                      dataType="numeric"
-                      name="Energy_eff_inv_GDP_7_b_1"
-                      precision="5"
-                      scale="2" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load_fact_agri_water_energy\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load_fact_agri_water_energy\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load_fact_agri_water_energy\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2289,7 +2289,7 @@ FULL OUTER JOIN s7
               startId="Package\Load_fact_agri_water_energy\LKP_dimTime.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Load_fact_agri_water_energy.Paths[Lookup Match Output1]"
-              endId="Package\Load_fact_agri_water_energy\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              endId="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity.Inputs[OLE DB Destination Input]"
               name="Lookup Match Output"
               startId="Package\Load_fact_agri_water_energy\LKP_dimRegion.Outputs[Lookup Match Output]" />
             <path
@@ -4696,7 +4696,7 @@ FROM staging.stg_sdg1;</property>
         <NodeLayout
           Size="184,42.6666666666667"
           Id="Package\Fact_AgriWaterEnergy"
-          TopLeft="91.0019713703796,447.045232929072" />
+          TopLeft="107.966256831878,370.902377147755" />
         <NodeLayout
           Size="187.333333333334,41.3333333333334"
           Id="Package\Form_of_Violence_Dim"
@@ -4705,6 +4705,10 @@ FROM staging.stg_sdg1;</property>
           Size="210.666666666667,42.6666666666667"
           Id="Package\Geographical_Location_Dim"
           TopLeft="361.827360576374,65.0095231686038" />
+        <NodeLayout
+          Size="220,42.6666666666667"
+          Id="Package\Load_fact_agri_water_energy"
+          TopLeft="737.410703297439,296.585708982348" />
         <NodeLayout
           Size="292,42.6666666666667"
           Id="Package\Load_Fact_BasicServicesFoodWaterElectricity"
@@ -4892,103 +4896,31 @@ FROM staging.stg_sdg1;</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="89.9027754215319,106.366663842301">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="63.7658626155144,340.678569086771"
-              Start="0,0"
-              End="63.7658626155144,333.178569086771">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,167.270100305918" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,167.270100305918"
-                    Point2="0,171.270100305918"
-                    Point3="4,171.270100305918" />
-                  <mssgle:LineSegment
-                    End="59.7658626155144,171.270100305918" />
-                  <mssgle:CubicBezierSegment
-                    Point1="59.7658626155144,171.270100305918"
-                    Point2="63.7658626155144,171.270100305918"
-                    Point3="63.7658626155144,175.270100305918" />
-                  <mssgle:LineSegment
-                    End="63.7658626155144,333.178569086771" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="241.902769372075,104.34444167561">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-29.5674646683617,342.700791253462"
-              Start="0,0"
-              End="-29.5674646683617,335.200791253462">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,167.752739938807" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,167.752739938807"
-                    Point2="0,171.752739938807"
-                    Point3="-4,171.752739938807" />
-                  <mssgle:LineSegment
-                    End="-25.5674646683617,171.752739938807" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-25.5674646683617,171.752739938807"
-                    Point2="-29.5674646683617,171.752739938807"
-                    Point3="-29.5674646683617,175.752739938807" />
-                  <mssgle:LineSegment
-                    End="-29.5674646683617,335.200791253462" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="220,42.6666666666667"
-          Id="Package\Load_fact_agri_water_energy"
-          TopLeft="739.285703269499,308.285708773136" />
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="831.210258253141,110.978561575361">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="53.4087783496917,197.307147197775"
+              EndConnector="51.5337783776309,185.607147406987"
               Start="0,0"
-              End="53.4087783496917,189.807147197775">
+              End="51.5337783776309,178.107147406987">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,95.282637139995" />
+                    End="0,89.3953347778436" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,95.282637139995"
-                    Point2="0,99.282637139995"
-                    Point3="4,99.282637139995" />
+                    Point1="0,89.3953347778436"
+                    Point2="0,93.3953347778436"
+                    Point3="4,93.3953347778436" />
                   <mssgle:LineSegment
-                    End="49.4087783496917,99.282637139995" />
+                    End="47.5337783776309,93.3953347778436" />
                   <mssgle:CubicBezierSegment
-                    Point1="49.4087783496917,99.282637139995"
-                    Point2="53.4087783496917,99.282637139995"
-                    Point3="53.4087783496917,103.282637139995" />
+                    Point1="47.5337783776309,93.3953347778436"
+                    Point2="51.5337783776309,93.3953347778436"
+                    Point3="51.5337783776309,97.3953347778436" />
                   <mssgle:LineSegment
-                    End="53.4087783496917,189.807147197775" />
+                    End="51.5337783776309,178.107147406987" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5003,26 +4935,94 @@ FROM staging.stg_sdg1;</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="126.226198919295,198.752376075188"
+              EndConnector="124.351198947234,187.052376284401"
               Start="0,0"
-              End="126.226198919295,191.252376075188">
+              End="124.351198947234,179.552376284401">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,95.9212128348752" />
+                    End="0,90.0391288449911" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,95.9212128348752"
-                    Point2="0,99.9212128348752"
-                    Point3="4,99.9212128348752" />
+                    Point1="0,90.0391288449911"
+                    Point2="0,94.0391288449911"
+                    Point3="4,94.0391288449911" />
                   <mssgle:LineSegment
-                    End="122.226198919295,99.9212128348752" />
+                    End="120.351198947234,94.0391288449911" />
                   <mssgle:CubicBezierSegment
-                    Point1="122.226198919295,99.9212128348752"
-                    Point2="126.226198919295,99.9212128348752"
-                    Point3="126.226198919295,103.921212834875" />
+                    Point1="120.351198947234,94.0391288449911"
+                    Point2="124.351198947234,94.0391288449911"
+                    Point3="124.351198947234,98.0391288449911" />
                   <mssgle:LineSegment
-                    End="126.226198919295,191.252376075188" />
+                    End="124.351198947234,179.552376284401" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="89.9027754215319,106.366663842301">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.7301480770125,264.535713305454"
+              Start="0,0"
+              End="80.7301480770125,257.035713305454">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,128.990631825693" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,128.990631825693"
+                    Point2="0,132.990631825693"
+                    Point3="4,132.990631825693" />
+                  <mssgle:LineSegment
+                    End="76.7301480770125,132.990631825693" />
+                  <mssgle:CubicBezierSegment
+                    Point1="76.7301480770125,132.990631825693"
+                    Point2="80.7301480770125,132.990631825693"
+                    Point3="80.7301480770125,136.990631825693" />
+                  <mssgle:LineSegment
+                    End="80.7301480770125,257.035713305454" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 1]"
+          TopLeft="241.902769372075,104.34444167561">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-12.6031792068634,266.557935472145"
+              Start="0,0"
+              End="-12.6031792068634,259.057935472145">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,129.591917317495" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,129.591917317495"
+                    Point2="0,133.591917317495"
+                    Point3="-4,133.591917317495" />
+                  <mssgle:LineSegment
+                    End="-8.60317920686344,133.591917317495" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-8.60317920686344,133.591917317495"
+                    Point2="-12.6031792068634,133.591917317495"
+                    Point3="-12.6031792068634,137.591917317495" />
+                  <mssgle:LineSegment
+                    End="-12.6031792068634,259.057935472145" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5388,10 +5388,195 @@ FROM staging.stg_sdg1;</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Load_fact_agri_water_energy">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="144,42.6666666666667"
+          Id="Package\Load_fact_agri_water_energy\LKP_dimTime"
+          TopLeft="289.230769230769,123.076923076923" />
+        <NodeLayout
+          Size="264,42.6666666666667"
+          Id="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity"
+          TopLeft="280,281.538461538461" />
+        <NodeLayout
+          Size="152,42.6666666666667"
+          Id="Package\Load_fact_agri_water_energy\LKP_dimRegion"
+          TopLeft="287.692307692308,202.307692307692" />
+        <NodeLayout
+          Size="113.333333333334,42.6666666666667"
+          Id="Package\Load_fact_agri_water_energy\staging"
+          TopLeft="298.307692307692,33.4358974358975" />
+        <EdgeLayout
+          Id="Package\Load_fact_agri_water_energy.Paths[OLE DB Source Output]"
+          TopLeft="358.102564102564,76.1025641025641">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.9743589743589"
+              Start="0,0"
+              End="0,39.4743589743589">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.4743589743589" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_fact_agri_water_energy.Paths[Lookup Match Output1]"
+          TopLeft="363.692307692308,244.974358974359">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48.307692307692,36.5641025641023"
+              Start="0,0"
+              End="48.307692307692,29.0641025641023">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.2820512820512" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.2820512820512"
+                    Point2="0,18.2820512820512"
+                    Point3="4,18.2820512820512" />
+                  <mssgle:LineSegment
+                    End="44.307692307692,18.2820512820512" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.307692307692,18.2820512820512"
+                    Point2="48.307692307692,18.2820512820512"
+                    Point3="48.307692307692,22.2820512820512" />
+                  <mssgle:LineSegment
+                    End="48.307692307692,29.0641025641023" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-24.037540564904,23.2820512820512,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_fact_agri_water_energy.Paths[Lookup Match Output]"
+          TopLeft="362.461538461538,165.74358974359">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36.5641025641025"
+              Start="0,0"
+              End="0,29.0641025641025">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.0641025641025" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,8.72736378205127,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_fact_agri_water_energy\LKP_dimTime">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimTime]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_fact_agri_water_energy\Fact_BasicServicesFoodWaterElectricity">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_fact_agri_water_energy\LKP_dimRegion">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimRegion]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_fact_agri_water_energy\staging">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="113.333333333334,42.6666666666667"
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\staging"
+          TopLeft="296,42.6666666666667" />
+        <NodeLayout
+          Size="168,42.6666666666667"
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimAgeGroup"
+          TopLeft="274.739579239395,272.855550676518" />
+        <NodeLayout
+          Size="153.333333333334,42.6666666666667"
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimRegion"
+          TopLeft="284.722217979531,338.351848119608" />
         <NodeLayout
           Size="145.333333333334,42.6666666666667"
           Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimTime"
@@ -5401,31 +5586,9 @@ FROM staging.stg_sdg1;</property>
           Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\Fact_BasicServicesFoodWaterElectricity"
           TopLeft="224.974206642647,488.599995975891" />
         <NodeLayout
-          Size="113.333333333334,42.6666666666667"
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\staging"
-          TopLeft="296,42.6666666666667" />
-        <EdgeLayout
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[OLE DB Source Output]"
-          TopLeft="355.145833663953,85.3333333333334">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33.7833331822359"
-              Start="0,0"
-              End="0,26.2833331822359">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.2833331822359" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="156,42.6666666666667"
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimGeoLoc"
+          TopLeft="281.249995809048,408.055551874969" />
         <NodeLayout
           Size="138,42.6666666666667"
           Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimSex"
@@ -5454,66 +5617,52 @@ FROM staging.stg_sdg1;</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42.6666666666667"
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimAgeGroup"
-          TopLeft="274.739579239395,272.855550676518" />
         <EdgeLayout
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output1]"
-          TopLeft="357.973955961953,236.200003238916">
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[OLE DB Source Output]"
+          TopLeft="355.145833663953,85.3333333333334">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,36.655547437602"
+              EndConnector="0,33.7833331822359"
               Start="0,0"
-              End="0,29.155547437602">
+              End="0,26.2833331822359">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.155547437602" />
+                    End="0,26.2833331822359" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output4]"
+          TopLeft="358.112101225847,450.722218541636">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.8777774342553"
+              Start="0,0"
+              End="0,30.3777774342553">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.3777774342553" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.773086218801,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,9.38420121712764,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="153.333333333334,42.6666666666667"
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimRegion"
-          TopLeft="284.722217979531,338.351848119608" />
-        <EdgeLayout
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output2]"
-          TopLeft="360.064231942796,315.522217343185">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,22.829630776423"
-              Start="0,0"
-              End="0,15.329630776423">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.329630776423" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,1.86012788821151,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="156,42.6666666666667"
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimGeoLoc"
-          TopLeft="281.249995809048,408.055551874969" />
         <EdgeLayout
           Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output3]"
           TopLeft="360.319440227623,381.018514786274">
@@ -5539,26 +5688,50 @@ FROM staging.stg_sdg1;</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output4]"
-          TopLeft="358.112101225848,450.722218541636">
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output2]"
+          TopLeft="360.064231942796,315.522217343185">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.8777774342559"
+              EndConnector="0,22.829630776423"
               Start="0,0"
-              End="0,30.3777774342559">
+              End="0,15.329630776423">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.3777774342559" />
+                    End="0,15.329630776423" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,9.38420121712795,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,1.86012788821151,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_Fact_BasicServicesFoodWaterElectricity.Paths[Lookup Match Output1]"
+          TopLeft="357.973955961953,236.200003238916">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36.655547437602"
+              Start="0,0"
+              End="0,29.155547437602">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.155547437602" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,8.773086218801,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5566,12 +5739,71 @@ FROM staging.stg_sdg1;</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\staging">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimAgeGroup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimAgeGroup]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimRegion">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimRegion]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimTime">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5581,7 +5813,7 @@ FROM staging.stg_sdg1;</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5602,15 +5834,48 @@ FROM staging.stg_sdg1;</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\staging">
+    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimGeoLoc">
     <Properties>
       <Property>
-        <Name>DataSourceViewID</Name>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimGeographicalLocation]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">Table</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimSex">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimSex]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -5818,259 +6083,6 @@ FROM staging.stg_sdg1;</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimSex">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimSex]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimAgeGroup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimAgeGroup]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimRegion">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimRegion]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_Fact_BasicServicesFoodWaterElectricity\LKP_DimGeoLoc">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimGeographicalLocation]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Load_fact_agri_water_energy">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="113.333333333334,42.6666666666667"
-          Id="Package\Load_fact_agri_water_energy\staging"
-          TopLeft="298.307692307692,33.4358974358975" />
-        <NodeLayout
-          Size="144,42.6666666666667"
-          Id="Package\Load_fact_agri_water_energy\LKP_dimTime"
-          TopLeft="289.230769230769,123.076923076923" />
-        <EdgeLayout
-          Id="Package\Load_fact_agri_water_energy.Paths[OLE DB Source Output]"
-          TopLeft="358.102564102564,76.1025641025641">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46.9743589743589"
-              Start="0,0"
-              End="0,39.4743589743589">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.4743589743589" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="152,42.6666666666667"
-          Id="Package\Load_fact_agri_water_energy\LKP_dimRegion"
-          TopLeft="287.692307692308,202.307692307692" />
-        <EdgeLayout
-          Id="Package\Load_fact_agri_water_energy.Paths[Lookup Match Output]"
-          TopLeft="362.461538461538,165.74358974359">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36.5641025641025"
-              Start="0,0"
-              End="0,29.0641025641025">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.0641025641025" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.72736378205127,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42.6666666666667"
-          Id="Package\Load_fact_agri_water_energy\OLE DB Destination"
-          TopLeft="280,281.538461538461" />
-        <EdgeLayout
-          Id="Package\Load_fact_agri_water_energy.Paths[Lookup Match Output1]"
-          TopLeft="364.846153846154,244.974358974359">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36.5641025641025"
-              Start="0,0"
-              End="0,29.0641025641025">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.0641025641025" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.72736378205124,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_fact_agri_water_energy\staging">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_fact_agri_water_energy\LKP_dimTime">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimTime]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_fact_agri_water_energy\LKP_dimRegion">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimRegion]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_fact_agri_water_energy\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
