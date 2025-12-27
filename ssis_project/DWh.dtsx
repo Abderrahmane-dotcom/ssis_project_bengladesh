@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="DWh"
   DTS:PackageType="5"
-  DTS:VersionBuild="91"
-  DTS:VersionGUID="{15FE247C-A0F8-4757-8269-2A75A65557BF}">
+  DTS:VersionBuild="92"
+  DTS:VersionGUID="{AADBFB26-00F8-4FC4-A6B8-864A4FD435DF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1313,13 +1313,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Load_FactViolenceAgainstWoman"
+      DTS:refId="Package\Load_FactViolenceAgainstWomen"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tâche de flux de données"
       DTS:DTSID="{B6F77841-F435-4214-A582-44E5FF0AE6C3}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Load_FactViolenceAgainstWoman"
+      DTS:ObjectName="Load_FactViolenceAgainstWomen"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -1327,7 +1327,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB"
+              refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
               description="Destination OLE DB"
@@ -1384,7 +1384,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Connections[OleDbConnection]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Connections[OleDbConnection]"
                   connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
                   connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
                   description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -1392,75 +1392,75 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
                   errorOrTruncationOperation="Insérer"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrée de destination OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
                       cachedDataType="numeric"
                       cachedName="Prop_IPV_women_15p_5_2_1"
                       cachedPrecision="18"
                       cachedScale="3"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]" />
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]" />
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
                       cachedDataType="numeric"
                       cachedName="Prop_nonIPV_viol_15p_5_2_2"
                       cachedPrecision="18"
                       cachedScale="3"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]" />
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]" />
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[TimeKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[TimeKey]"
                       cachedDataType="i4"
                       cachedName="TimeKey"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[TimeKey]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance].Columns[TimeKey]" />
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[TimeKey]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance].Columns[TimeKey]" />
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[RegionKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[RegionKey]"
                       cachedDataType="i4"
                       cachedName="RegionKey"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionKey]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance].Columns[RegionKey]" />
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionKey]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance].Columns[RegionKey]" />
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ViolenceFormKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ViolenceFormKey]"
                       cachedDataType="i4"
                       cachedName="ViolenceFormKey"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ViolenceFormKey]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance].Columns[ViolenceFormKey]" />
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ViolenceFormKey]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance].Columns[ViolenceFormKey]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[TimeKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[TimeKey]"
                       dataType="i4"
                       name="TimeKey" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[RegionKey]"
                       dataType="i4"
                       name="RegionKey" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ViolenceFormKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ViolenceFormKey]"
                       dataType="i4"
                       name="ViolenceFormKey" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
                       dataType="numeric"
                       name="Prop_IPV_women_15p_5_2_1"
                       precision="5"
                       scale="2" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
                       dataType="numeric"
                       name="Prop_nonIPV_viol_15p_5_2_2"
                       precision="5"
                       scale="2" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ID_Key]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ID_Key]"
                       dataType="i8"
                       name="ID_Key" />
                   </externalMetadataColumns>
@@ -1468,22 +1468,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de destination OLE DB"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1492,7 +1492,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence"
+              refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence"
               componentClassID="Microsoft.Lookup"
               contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
               description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
@@ -1548,7 +1548,7 @@ where [refTable].[Form] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
-                  name="ParameterMap">#{Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]};</property>
+                  name="ParameterMap">#{Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]};</property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1560,7 +1560,7 @@ where [refTable].[Form] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Connections[OleDbConnection]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Connections[OleDbConnection]"
                   connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
                   connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
                   description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
@@ -1568,16 +1568,16 @@ where [refTable].[Form] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]"
                   name="Entrée de recherche">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Inputs[Entrée de recherche].Columns[form_of_violence]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Inputs[Entrée de recherche].Columns[form_of_violence]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="200"
                       cachedName="form_of_violence"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]">
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -1595,18 +1595,18 @@ where [refTable].[Form] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance]"
                   errorOrTruncationOperation="Recherche"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Sortie de recherche avec correspondance"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance].Columns[ViolenceFormKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance].Columns[ViolenceFormKey]"
                       dataType="i4"
                       errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance].Columns[ViolenceFormKey]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance].Columns[ViolenceFormKey]"
                       name="ViolenceFormKey"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -1620,30 +1620,30 @@ where [refTable].[Form] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie de recherche sans correspondance]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie de recherche sans correspondance]"
                   description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
                   exclusionGroup="1"
                   name="Sortie de recherche sans correspondance"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de recherche"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1652,7 +1652,7 @@ where [refTable].[Form] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region"
+              refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region"
               componentClassID="Microsoft.Lookup"
               contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
               description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
@@ -1708,7 +1708,7 @@ where [refTable].[RegionName] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
-                  name="ParameterMap">#{Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]};</property>
+                  name="ParameterMap">#{Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]};</property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1720,7 +1720,7 @@ where [refTable].[RegionName] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Connections[OleDbConnection]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Connections[OleDbConnection]"
                   connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
                   connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
                   description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
@@ -1728,16 +1728,16 @@ where [refTable].[RegionName] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Inputs[Entrée de recherche]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Inputs[Entrée de recherche]"
                   name="Entrée de recherche">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Inputs[Entrée de recherche].Columns[Region]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Inputs[Entrée de recherche].Columns[Region]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="150"
                       cachedName="Region"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]">
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -1755,18 +1755,18 @@ where [refTable].[RegionName] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance]"
                   errorOrTruncationOperation="Recherche"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Sortie de recherche avec correspondance"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Inputs[Entrée de recherche]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance].Columns[RegionKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance].Columns[RegionKey]"
                       dataType="i4"
                       errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance].Columns[RegionKey]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance].Columns[RegionKey]"
                       name="RegionKey"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -1780,30 +1780,30 @@ where [refTable].[RegionName] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie de recherche sans correspondance]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie de recherche sans correspondance]"
                   description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
                   exclusionGroup="1"
                   name="Sortie de recherche sans correspondance"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Inputs[Entrée de recherche]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie d'erreur de recherche]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie d'erreur de recherche]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de recherche"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Inputs[Entrée de recherche]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1812,7 +1812,7 @@ where [refTable].[RegionName] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time"
+              refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time"
               componentClassID="Microsoft.Lookup"
               contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
               description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
@@ -1868,7 +1868,7 @@ where [refTable].[Year] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
-                  name="ParameterMap">#{Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]};</property>
+                  name="ParameterMap">#{Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]};</property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1880,7 +1880,7 @@ where [refTable].[Year] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Connections[OleDbConnection]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Connections[OleDbConnection]"
                   connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
                   connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
                   description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
@@ -1888,14 +1888,14 @@ where [refTable].[Year] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Inputs[Entrée de recherche]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Inputs[Entrée de recherche]"
                   name="Entrée de recherche">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Inputs[Entrée de recherche].Columns[Year]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Inputs[Entrée de recherche].Columns[Year]"
                       cachedDataType="i4"
                       cachedName="Year"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]">
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -1913,18 +1913,18 @@ where [refTable].[Year] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance]"
                   errorOrTruncationOperation="Recherche"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="Sortie de recherche avec correspondance"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Inputs[Entrée de recherche]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance].Columns[TimeKey]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance].Columns[TimeKey]"
                       dataType="i4"
                       errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance].Columns[TimeKey]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance].Columns[TimeKey]"
                       name="TimeKey"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -1938,30 +1938,30 @@ where [refTable].[Year] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie de recherche sans correspondance]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie de recherche sans correspondance]"
                   description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
                   exclusionGroup="1"
                   name="Sortie de recherche sans correspondance"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Inputs[Entrée de recherche]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie d'erreur de recherche]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie d'erreur de recherche]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de recherche"
-                  synchronousInputId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Inputs[Entrée de recherche]">
+                  synchronousInputId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Inputs[Entrée de recherche]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1970,7 +1970,7 @@ where [refTable].[Year] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB"
+              refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
               description="Source OLE DB"
@@ -2029,7 +2029,7 @@ GROUP BY
               </properties>
               <connections>
                 <connection
-                  refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Connections[OleDbConnection]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Connections[OleDbConnection]"
                   connectionManagerID="{1EA8ED6B-AFF4-4333-94C1-02BE036B2F35}:external"
                   connectionManagerRefId="Project.ConnectionManagers[NIAMA.SDG_STAGING_BD]"
                   description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -2037,58 +2037,58 @@ GROUP BY
               </connections>
               <outputs>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB]"
                   name="Sortie de source OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Year]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]"
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Year]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Year]"
                       name="Year"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
                       length="150"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]"
                       name="Region"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[form_of_violence]"
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[form_of_violence]"
                       length="200"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[form_of_violence]"
                       name="form_of_violence"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
                       name="Prop_IPV_women_15p_5_2_1"
                       precision="18"
                       scale="3"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
+                      externalMetadataColumnId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
                       name="Prop_nonIPV_viol_15p_5_2_2"
                       precision="18"
                       scale="3"
@@ -2097,29 +2097,29 @@ GROUP BY
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Year]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Year]"
                       dataType="i4"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
                       codePage="1252"
                       dataType="str"
                       length="150"
                       name="Region" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[form_of_violence]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[form_of_violence]"
                       codePage="1252"
                       dataType="str"
                       length="200"
                       name="form_of_violence" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_IPV_women_15p_5_2_1]"
                       dataType="numeric"
                       name="Prop_IPV_women_15p_5_2_1"
                       precision="18"
                       scale="3" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Prop_nonIPV_viol_15p_5_2_2]"
                       dataType="numeric"
                       name="Prop_nonIPV_viol_15p_5_2_2"
                       precision="18"
@@ -2127,53 +2127,53 @@ GROUP BY
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB]"
+                  refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB]"
                   isErrorOut="true"
                   name="Sortie d'erreur de source OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Year]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Year]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Year]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Year]"
                       name="Year" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
                       codePage="1252"
                       dataType="str"
                       length="150"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
                       name="Region" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[form_of_violence]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[form_of_violence]"
                       codePage="1252"
                       dataType="str"
                       length="200"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[form_of_violence]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[form_of_violence]"
                       name="form_of_violence" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
                       dataType="numeric"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_IPV_women_15p_5_2_1]"
                       name="Prop_IPV_women_15p_5_2_1"
                       precision="18"
                       scale="3" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
                       dataType="numeric"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Prop_nonIPV_viol_15p_5_2_2]"
                       name="Prop_nonIPV_viol_15p_5_2_2"
                       precision="18"
                       scale="3" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2184,25 +2184,25 @@ GROUP BY
           </components>
           <paths>
             <path
-              refId="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de recherche avec correspondance]"
-              endId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Inputs[Entrée de recherche]"
+              refId="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de recherche avec correspondance]"
+              endId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
-              startId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance]" />
+              startId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de recherche avec correspondance1]"
-              endId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]"
+              refId="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de recherche avec correspondance1]"
+              endId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
-              startId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance]" />
+              startId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de recherche avec correspondance2]"
-              endId="Package\Load_FactViolenceAgainstWoman\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              refId="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de recherche avec correspondance2]"
+              endId="Package\Load_FactViolenceAgainstWomen\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
               name="Sortie de recherche avec correspondance"
-              startId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance]" />
+              startId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de source OLE DB]"
-              endId="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time.Inputs[Entrée de recherche]"
+              refId="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de source OLE DB]"
+              endId="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time.Inputs[Entrée de recherche]"
               name="Sortie de source OLE DB"
-              startId="Package\Load_FactViolenceAgainstWoman\Source OLE DB.Outputs[Sortie de source OLE DB]" />
+              startId="Package\Load_FactViolenceAgainstWomen\Source OLE DB.Outputs[Sortie de source OLE DB]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -9456,7 +9456,7 @@ FROM staging.stg_sdg1;</property>
       DTS:From="Package\Time_Dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte"
-      DTS:To="Package\Load_FactViolenceAgainstWoman" />
+      DTS:To="Package\Load_FactViolenceAgainstWomen" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 1]"
       DTS:CreationName=""
@@ -9464,7 +9464,7 @@ FROM staging.stg_sdg1;</property>
       DTS:From="Package\Region_Dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte 1"
-      DTS:To="Package\Load_FactViolenceAgainstWoman" />
+      DTS:To="Package\Load_FactViolenceAgainstWomen" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 2]"
       DTS:CreationName=""
@@ -9472,7 +9472,7 @@ FROM staging.stg_sdg1;</property>
       DTS:From="Package\Form_of_Violence_Dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte 2"
-      DTS:To="Package\Load_FactViolenceAgainstWoman" />
+      DTS:To="Package\Load_FactViolenceAgainstWomen" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 3]"
       DTS:CreationName=""
@@ -9546,6 +9546,14 @@ FROM staging.stg_sdg1;</property>
           Size="198.4,42.4"
           Id="Package\Load_Fact_PovertyStatus"
           TopLeft="604.374972982333,283.066659145355" />
+        <NodeLayout
+          Size="238.4,41.6"
+          Id="Package\Load_FactViolenceAgainstWomen"
+          TopLeft="1102.08327311816,278.777775839192" />
+        <NodeLayout
+          Size="230.4,41.6"
+          Id="Package\Load_FactWomenEmpowerment"
+          TopLeft="1431.24992179995,277.694442513392" />
         <NodeLayout
           Size="136,42.4"
           Id="Package\Region_Dim"
@@ -10170,40 +10178,32 @@ FROM staging.stg_sdg1;</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="230.4,41.6"
-          Id="Package\Load_FactWomenEmpowerment"
-          TopLeft="1431.24992179995,277.694442513392" />
-        <NodeLayout
-          Size="238.4,41.6"
-          Id="Package\Load_FactViolenceAgainstWoman"
-          TopLeft="1102.08327311816,278.777775839192" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte 2]"
-          TopLeft="843.679323409727,442.076958776711">
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="840.049543827728,110.711894908694">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="377.60394970843,-121.699182937519"
+              EndConnector="419.633729290432,168.065880930498"
               Start="0,0"
-              End="377.60394970843,-114.199182937519">
+              End="419.633729290432,160.565880930498">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-56.8495914687593" />
+                    End="0,74.7885273223365" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-56.8495914687593"
-                    Point2="0,-60.8495914687593"
-                    Point3="4,-60.8495914687593" />
+                    Point1="0,74.7885273223365"
+                    Point2="0,78.7885273223365"
+                    Point3="4,78.7885273223365" />
                   <mssgle:LineSegment
-                    End="373.60394970843,-60.8495914687593" />
+                    End="415.633729290432,78.7885273223365" />
                   <mssgle:CubicBezierSegment
-                    Point1="373.60394970843,-60.8495914687593"
-                    Point2="377.60394970843,-60.8495914687593"
-                    Point3="377.60394970843,-64.8495914687593" />
+                    Point1="415.633729290432,78.7885273223365"
+                    Point2="419.633729290432,78.7885273223365"
+                    Point3="419.633729290432,82.7885273223365" />
                   <mssgle:LineSegment
-                    End="377.60394970843,-114.199182937519" />
+                    End="419.633729290432,160.565880930498" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10214,30 +10214,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="712.184504210507,109.266666031281">
+          TopLeft="696.946408972411,109.266666031281">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="470.698768907651,169.511109807911"
+              EndConnector="485.936864145748,169.511109807911"
               Start="0,0"
-              End="470.698768907651,162.011109807911">
+              End="485.936864145748,162.011109807911">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,56.1210162698818" />
+                    End="0,75.3547230134476" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,56.1210162698818"
-                    Point2="0,60.1210162698818"
-                    Point3="4,60.1210162698818" />
+                    Point1="0,75.3547230134476"
+                    Point2="0,79.3547230134476"
+                    Point3="4,79.3547230134476" />
                   <mssgle:LineSegment
-                    End="466.698768907651,60.1210162698818" />
+                    End="481.936864145748,79.3547230134476" />
                   <mssgle:CubicBezierSegment
-                    Point1="466.698768907651,60.1210162698818"
-                    Point2="470.698768907651,60.1210162698818"
-                    Point3="470.698768907651,64.1210162698818" />
+                    Point1="481.936864145748,79.3547230134476"
+                    Point2="485.936864145748,79.3547230134476"
+                    Point3="485.936864145748,83.3547230134476" />
                   <mssgle:LineSegment
-                    End="470.698768907651,162.011109807911" />
+                    End="485.936864145748,162.011109807911" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10247,31 +10247,31 @@ FROM staging.stg_sdg1;</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="854.335258113442,110.711894908694">
+          Id="Package.PrecedenceConstraints[Contrainte 2]"
+          TopLeft="843.679323409727,442.076958776711">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="405.348015004715,168.065880930498"
+              EndConnector="377.603949708433,-121.699182937519"
               Start="0,0"
-              End="405.348015004715,160.565880930498">
+              End="377.603949708433,-114.199182937519">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,55.8609153593087" />
+                    End="0,-56.8495914687595" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,55.8609153593087"
-                    Point2="0,59.8609153593087"
-                    Point3="4,59.8609153593087" />
+                    Point1="0,-56.8495914687595"
+                    Point2="0,-60.8495914687595"
+                    Point3="4,-60.8495914687595" />
                   <mssgle:LineSegment
-                    End="401.348015004715,59.8609153593087" />
+                    End="373.603949708433,-60.8495914687595" />
                   <mssgle:CubicBezierSegment
-                    Point1="401.348015004715,59.8609153593087"
-                    Point2="405.348015004715,59.8609153593087"
-                    Point3="405.348015004715,63.8609153593087" />
+                    Point1="373.603949708433,-60.8495914687595"
+                    Point2="377.603949708433,-60.8495914687595"
+                    Point3="377.603949708433,-64.8495914687595" />
                   <mssgle:LineSegment
-                    End="405.348015004715,160.565880930498" />
+                    End="377.603949708433,-114.199182937519" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11800,6 +11800,436 @@ FROM staging.stg_sdg1;</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Load_FactViolenceAgainstWomen">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="220,41.6"
+          Id="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence"
+          TopLeft="574.999991431832,296.999995574355" />
+        <NodeLayout
+          Size="160.8,41.6"
+          Id="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time"
+          TopLeft="465.999993056059,125.999998122454" />
+        <NodeLayout
+          Size="169.6,41.6"
+          Id="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region"
+          TopLeft="477.999992877245,216.999996766448" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Load_FactViolenceAgainstWomen\Source OLE DB"
+          TopLeft="483.999992787838,29.9999995529652" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Load_FactViolenceAgainstWomen\Destination OLE DB"
+          TopLeft="564.999991580844,387.99999421835" />
+        <EdgeLayout
+          Id="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de source OLE DB]"
+          TopLeft="559.999992787838,71.5999995529652">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13.599999731779,54.3999985694885"
+              Start="0,0"
+              End="-13.599999731779,46.8999985694885">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.1999992847443" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.1999992847443"
+                    Point2="0,27.1999992847443"
+                    Point3="-4,27.1999992847443" />
+                  <mssgle:LineSegment
+                    End="-9.59999973177901,27.1999992847443" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9.59999973177901,27.1999992847443"
+                    Point2="-13.599999731779,27.1999992847443"
+                    Point3="-13.599999731779,31.1999992847443" />
+                  <mssgle:LineSegment
+                    End="-13.599999731779,46.8999985694885" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de recherche avec correspondance2]"
+          TopLeft="684.999991431832,338.599995574355">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-34.3999998509884,49.3999986439944"
+              Start="0,0"
+              End="-34.3999998509884,41.8999986439944">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.6999993219972" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.6999993219972"
+                    Point2="0,24.6999993219972"
+                    Point3="-4,24.6999993219972" />
+                  <mssgle:LineSegment
+                    End="-30.3999998509884,24.6999993219972" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-30.3999998509884,24.6999993219972"
+                    Point2="-34.3999998509884,24.6999993219972"
+                    Point3="-34.3999998509884,28.6999993219972" />
+                  <mssgle:LineSegment
+                    End="-34.3999998509884,41.8999986439944" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-108.877011644244,29.6999993219972,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="562.799992877245,258.599996766448">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122.199998554587,38.3999988079071"
+              Start="0,0"
+              End="122.199998554587,30.8999988079071">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.1999994039535" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.1999994039535"
+                    Point2="0,19.1999994039535"
+                    Point3="4,19.1999994039535" />
+                  <mssgle:LineSegment
+                    End="118.199998554587,19.1999994039535" />
+                  <mssgle:CubicBezierSegment
+                    Point1="118.199998554587,19.1999994039535"
+                    Point2="122.199998554587,19.1999994039535"
+                    Point3="122.199998554587,23.1999994039535" />
+                  <mssgle:LineSegment
+                    End="122.199998554587,30.8999988079071" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-30.5770124414563,24.1999994039535,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactViolenceAgainstWomen.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="546.399993056059,167.599998122454">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16.399999821186,49.3999986439944"
+              Start="0,0"
+              End="16.399999821186,41.8999986439944">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.6999993219972" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.6999993219972"
+                    Point2="0,24.6999993219972"
+                    Point3="4,24.6999993219972" />
+                  <mssgle:LineSegment
+                    End="12.399999821186,24.6999993219972" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12.399999821186,24.6999993219972"
+                    Point2="16.399999821186,24.6999993219972"
+                    Point3="16.399999821186,28.6999993219972" />
+                  <mssgle:LineSegment
+                    End="16.399999821186,41.8999986439944" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-83.477011808157,29.6999993219972,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Load_FactWomenEmpowerment">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Source OLE DB"
+          TopLeft="593.99999114871,20.9999996870756" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Lookup_timeDim"
+          TopLeft="639.999990463257,123.999998152256" />
+        <EdgeLayout
+          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de source OLE DB]"
+          TopLeft="669.99999114871,62.5999996870756">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48.3999993145467,61.3999984651804"
+              Start="0,0"
+              End="48.3999993145467,53.8999984651804">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.6999992325902" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.6999992325902"
+                    Point2="0,30.6999992325902"
+                    Point3="4,30.6999992325902" />
+                  <mssgle:LineSegment
+                    End="44.3999993145467,30.6999992325902" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.3999993145467,30.6999992325902"
+                    Point2="48.3999993145467,30.6999992325902"
+                    Point3="48.3999993145467,34.6999992325902" />
+                  <mssgle:LineSegment
+                    End="48.3999993145467,53.8999984651804" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="169.6,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Lookup_RegionDim"
+          TopLeft="605.999990969896,228.999996587634" />
+        <EdgeLayout
+          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="718.399990463257,165.599998152256">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-27.5999994933607,63.3999984353781"
+              Start="0,0"
+              End="-27.5999994933607,55.8999984353781">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.6999992176891" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.6999992176891"
+                    Point2="0,31.6999992176891"
+                    Point3="-4,31.6999992176891" />
+                  <mssgle:LineSegment
+                    End="-23.5999994933607,31.6999992176891" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-23.5999994933607,31.6999992176891"
+                    Point2="-27.5999994933607,31.6999992176891"
+                    Point3="-27.5999994933607,35.6999992176891" />
+                  <mssgle:LineSegment
+                    End="-27.5999994933607,55.8999984353781" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-105.47701146543,36.6999992176891,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="238.4,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Lookup_GeographicalLocationDim"
+          TopLeft="463.999993085861,310.999995365739" />
+        <EdgeLayout
+          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="690.799990969896,270.599996587634">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-107.599997884035,40.3999987781048"
+              Start="0,0"
+              End="-107.599997884035,32.8999987781048">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.1999993890524" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.1999993890524"
+                    Point2="0,20.1999993890524"
+                    Point3="-4,20.1999993890524" />
+                  <mssgle:LineSegment
+                    End="-103.599997884035,20.1999993890524" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-103.599997884035,20.1999993890524"
+                    Point2="-107.599997884035,20.1999993890524"
+                    Point3="-107.599997884035,24.1999993890524" />
+                  <mssgle:LineSegment
+                    End="-107.599997884035,32.8999987781048" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-145.477010660768,25.1999993890524,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Destination OLE DB"
+          TopLeft="568.999991521239,395.99999409914" />
+        <EdgeLayout
+          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance2]"
+          TopLeft="583.199993085861,352.599995365739">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="71.3999984353782,43.3999987334012"
+              Start="0,0"
+              End="71.3999984353782,35.8999987334012">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.6999993667006" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.6999993667006"
+                    Point2="0,21.6999993667006"
+                    Point3="4,21.6999993667006" />
+                  <mssgle:LineSegment
+                    End="67.3999984353782,21.6999993667006" />
+                  <mssgle:CubicBezierSegment
+                    Point1="67.3999984353782,21.6999993667006"
+                    Point2="71.3999984353782,21.6999993667006"
+                    Point3="71.3999984353782,25.6999993667006" />
+                  <mssgle:LineSegment
+                    End="71.3999984353782,35.8999987334012" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.9770125010609,26.6999993667006,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_FactWomenEmpowerment\Lookup_GeographicalLocationDim">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimGeographicalLocation]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_FactWomenEmpowerment\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_FactWomenEmpowerment\Lookup_RegionDim">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimRegion]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_FactWomenEmpowerment\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_FactWomenEmpowerment\Lookup_timeDim">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimTime]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Region_Dim">
     <LayoutInfo>
       <GraphLayout
@@ -12003,436 +12433,6 @@ FROM staging.stg_sdg1;</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Load_FactWomenEmpowerment">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Source OLE DB"
-          TopLeft="593.99999114871,20.9999996870756" />
-        <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Lookup_timeDim"
-          TopLeft="639.999990463257,123.999998152256" />
-        <EdgeLayout
-          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de source OLE DB]"
-          TopLeft="669.99999114871,62.5999996870756">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="48.3999993145467,61.3999984651804"
-              Start="0,0"
-              End="48.3999993145467,53.8999984651804">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.6999992325902" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.6999992325902"
-                    Point2="0,30.6999992325902"
-                    Point3="4,30.6999992325902" />
-                  <mssgle:LineSegment
-                    End="44.3999993145467,30.6999992325902" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.3999993145467,30.6999992325902"
-                    Point2="48.3999993145467,30.6999992325902"
-                    Point3="48.3999993145467,34.6999992325902" />
-                  <mssgle:LineSegment
-                    End="48.3999993145467,53.8999984651804" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169.6,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Lookup_RegionDim"
-          TopLeft="605.999990969896,228.999996587634" />
-        <EdgeLayout
-          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance]"
-          TopLeft="718.399990463257,165.599998152256">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-27.5999994933607,63.3999984353781"
-              Start="0,0"
-              End="-27.5999994933607,55.8999984353781">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.6999992176891" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.6999992176891"
-                    Point2="0,31.6999992176891"
-                    Point3="-4,31.6999992176891" />
-                  <mssgle:LineSegment
-                    End="-23.5999994933607,31.6999992176891" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-23.5999994933607,31.6999992176891"
-                    Point2="-27.5999994933607,31.6999992176891"
-                    Point3="-27.5999994933607,35.6999992176891" />
-                  <mssgle:LineSegment
-                    End="-27.5999994933607,55.8999984353781" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-105.47701146543,36.6999992176891,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="238.4,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Lookup_GeographicalLocationDim"
-          TopLeft="463.999993085861,310.999995365739" />
-        <EdgeLayout
-          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance1]"
-          TopLeft="690.799990969896,270.599996587634">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-107.599997884035,40.3999987781048"
-              Start="0,0"
-              End="-107.599997884035,32.8999987781048">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.1999993890524" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.1999993890524"
-                    Point2="0,20.1999993890524"
-                    Point3="-4,20.1999993890524" />
-                  <mssgle:LineSegment
-                    End="-103.599997884035,20.1999993890524" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-103.599997884035,20.1999993890524"
-                    Point2="-107.599997884035,20.1999993890524"
-                    Point3="-107.599997884035,24.1999993890524" />
-                  <mssgle:LineSegment
-                    End="-107.599997884035,32.8999987781048" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-145.477010660768,25.1999993890524,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Destination OLE DB"
-          TopLeft="568.999991521239,395.99999409914" />
-        <EdgeLayout
-          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance2]"
-          TopLeft="583.199993085861,352.599995365739">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="71.3999984353782,43.3999987334012"
-              Start="0,0"
-              End="71.3999984353782,35.8999987334012">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.6999993667006" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.6999993667006"
-                    Point2="0,21.6999993667006"
-                    Point3="4,21.6999993667006" />
-                  <mssgle:LineSegment
-                    End="67.3999984353782,21.6999993667006" />
-                  <mssgle:CubicBezierSegment
-                    Point1="67.3999984353782,21.6999993667006"
-                    Point2="71.3999984353782,21.6999993667006"
-                    Point3="71.3999984353782,25.6999993667006" />
-                  <mssgle:LineSegment
-                    End="71.3999984353782,35.8999987334012" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-55.9770125010609,26.6999993667006,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <TaskHost
-    design-time-name="Package\Load_FactViolenceAgainstWoman">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="169.6,41.6"
-          Id="Package\Load_FactViolenceAgainstWoman\Lookup_dim_region"
-          TopLeft="477.999992877245,216.999996766448" />
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\Load_FactViolenceAgainstWoman\Lookup_dim_time"
-          TopLeft="465.999993056059,125.999998122454" />
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Load_FactViolenceAgainstWoman\Destination OLE DB"
-          TopLeft="564.999991580844,387.99999421835" />
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Load_FactViolenceAgainstWoman\Source OLE DB"
-          TopLeft="483.999992787838,29.9999995529652" />
-        <NodeLayout
-          Size="220,41.6"
-          Id="Package\Load_FactViolenceAgainstWoman\Lookup_dim_form_of_violence"
-          TopLeft="574.999991431832,296.999995574355" />
-        <EdgeLayout
-          Id="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de recherche avec correspondance1]"
-          TopLeft="562.799992877245,258.599996766448">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="122.199998554587,38.3999988079071"
-              Start="0,0"
-              End="122.199998554587,30.8999988079071">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.1999994039535" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.1999994039535"
-                    Point2="0,19.1999994039535"
-                    Point3="4,19.1999994039535" />
-                  <mssgle:LineSegment
-                    End="118.199998554587,19.1999994039535" />
-                  <mssgle:CubicBezierSegment
-                    Point1="118.199998554587,19.1999994039535"
-                    Point2="122.199998554587,19.1999994039535"
-                    Point3="122.199998554587,23.1999994039535" />
-                  <mssgle:LineSegment
-                    End="122.199998554587,30.8999988079071" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.5770124414563,24.1999994039535,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de recherche avec correspondance]"
-          TopLeft="546.399993056059,167.599998122454">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="16.399999821186,49.3999986439944"
-              Start="0,0"
-              End="16.399999821186,41.8999986439944">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.6999993219972" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.6999993219972"
-                    Point2="0,24.6999993219972"
-                    Point3="4,24.6999993219972" />
-                  <mssgle:LineSegment
-                    End="12.399999821186,24.6999993219972" />
-                  <mssgle:CubicBezierSegment
-                    Point1="12.399999821186,24.6999993219972"
-                    Point2="16.399999821186,24.6999993219972"
-                    Point3="16.399999821186,28.6999993219972" />
-                  <mssgle:LineSegment
-                    End="16.399999821186,41.8999986439944" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-83.477011808157,29.6999993219972,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de source OLE DB]"
-          TopLeft="559.999992787838,71.5999995529652">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-13.599999731779,54.3999985694885"
-              Start="0,0"
-              End="-13.599999731779,46.8999985694885">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.1999992847443" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.1999992847443"
-                    Point2="0,27.1999992847443"
-                    Point3="-4,27.1999992847443" />
-                  <mssgle:LineSegment
-                    End="-9.59999973177901,27.1999992847443" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-9.59999973177901,27.1999992847443"
-                    Point2="-13.599999731779,27.1999992847443"
-                    Point3="-13.599999731779,31.1999992847443" />
-                  <mssgle:LineSegment
-                    End="-13.599999731779,46.8999985694885" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load_FactViolenceAgainstWoman.Paths[Sortie de recherche avec correspondance2]"
-          TopLeft="684.999991431832,338.599995574355">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-34.3999998509884,49.3999986439944"
-              Start="0,0"
-              End="-34.3999998509884,41.8999986439944">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.6999993219972" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.6999993219972"
-                    Point2="0,24.6999993219972"
-                    Point3="-4,24.6999993219972" />
-                  <mssgle:LineSegment
-                    End="-30.3999998509884,24.6999993219972" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-30.3999998509884,24.6999993219972"
-                    Point2="-34.3999998509884,24.6999993219972"
-                    Point3="-34.3999998509884,28.6999993219972" />
-                  <mssgle:LineSegment
-                    End="-34.3999998509884,41.8999986439944" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-108.877011644244,29.6999993219972,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_FactWomenEmpowerment\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_FactWomenEmpowerment\Lookup_timeDim">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimTime]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_FactWomenEmpowerment\Lookup_RegionDim">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimRegion]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_FactWomenEmpowerment\Lookup_GeographicalLocationDim">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dwh].[DimGeographicalLocation]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_FactWomenEmpowerment\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
