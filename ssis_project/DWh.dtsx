@@ -7,12 +7,12 @@
   DTS:CreatorName="MARIA\Meriem"
   DTS:DTSID="{F6A75274-4A1E-4FB5-BA98-ED119123CEA3}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="17.0.1008.3"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
   DTS:LocaleID="1033"
   DTS:ObjectName="DWh"
   DTS:PackageType="5"
-  DTS:VersionBuild="92"
-  DTS:VersionGUID="{AADBFB26-00F8-4FC4-A6B8-864A4FD435DF}">
+  DTS:VersionBuild="127"
+  DTS:VersionGUID="{B13B512F-4E82-4A02-A8AB-62B9FE83E5ED}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -21,7 +21,6 @@
       DTS:refId="Package\AgeGroup_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{2AF399D5-A92B-4B28-A44B-05A93BFDEE82}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -57,7 +56,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -178,7 +177,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT age_group AS age_group FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT age_group AS age_group FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -280,7 +279,6 @@
       DTS:refId="Package\Disability_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{779AB1C4-8D47-4F96-B4A9-1143FF1E0BB7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -316,7 +314,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -437,7 +435,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT disability AS disability FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT disability AS disability FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -539,7 +537,6 @@
       DTS:refId="Package\Employement_Status_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{21DFAF2B-EFC2-4E00-BC3E-C2EAA6CBED60}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -575,7 +572,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -696,7 +693,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT employment_status AS employment_status FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT employment_status AS employment_status FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -798,7 +795,6 @@
       DTS:refId="Package\Form_of_Violence_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{397F5117-DB0D-4FBA-9E62-5F69A9CF12FF}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -834,7 +830,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -955,7 +951,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT form_of_violence AS form_of_violence FROM staging.stg_sdg5</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT form_of_violence AS form_of_violence FROM staging.stg_sdg5</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -1057,7 +1053,6 @@
       DTS:refId="Package\Geographical_Location_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{4B4FA814-6EDF-4614-B0E7-CBEBAC0E7803}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1093,7 +1088,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1214,7 +1209,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT geographical_location AS geographical_location FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT geographical_location AS geographical_location FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -1351,7 +1346,7 @@
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -1505,13 +1500,13 @@
                   description="Spécifie l'instruction SQL qui génère la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimFormOfViolence]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimFormOfViolence]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimFormOfViolence]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimFormOfViolence]) [refTable]
 where [refTable].[Form] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -1665,13 +1660,13 @@ where [refTable].[Form] = ?</property>
                   description="Spécifie l'instruction SQL qui génère la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimRegion]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimRegion]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimRegion]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimRegion]) [refTable]
 where [refTable].[RegionName] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -1825,13 +1820,13 @@ where [refTable].[RegionName] = ?</property>
                   description="Spécifie l'instruction SQL qui génère la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimTime]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimTime]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimTime]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimTime]) [refTable]
 where [refTable].[Year] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -1994,7 +1989,7 @@ where [refTable].[Year] = ?</property>
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT
     [Year],
     Region,
     form_of_violence,
@@ -2246,7 +2241,7 @@ GROUP BY
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -2428,13 +2423,13 @@ GROUP BY
                   description="Spécifie l'instruction SQL qui génère la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimGeographicalLocation]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimGeographicalLocation]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
 where [refTable].[GeoLocLabel] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -2588,13 +2583,13 @@ where [refTable].[GeoLocLabel] = ?</property>
                   description="Spécifie l'instruction SQL qui génère la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimRegion]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimRegion]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimRegion]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimRegion]) [refTable]
 where [refTable].[RegionName] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -2748,13 +2743,13 @@ where [refTable].[RegionName] = ?</property>
                   description="Spécifie l'instruction SQL qui génère la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimTime]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimTime]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimTime]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimTime]) [refTable]
 where [refTable].[Year] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -2917,7 +2912,7 @@ where [refTable].[Year] = ?</property>
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT
     [Year],
     Region,
     Geographical_location,
@@ -3184,7 +3179,6 @@ GROUP BY
       DTS:refId="Package\Load_fact_agri_water_energy"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{a2c9ec56-a839-4077-a677-e2ab9cfd99aa}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3220,7 +3214,7 @@ GROUP BY
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3450,13 +3444,13 @@ GROUP BY
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimRegion]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimRegion]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimRegion]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimRegion]) [refTable]
 where [refTable].[RegionName] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -3610,13 +3604,13 @@ where [refTable].[RegionName] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimTime]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimTime]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimTime]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimTime]) [refTable]
 where [refTable].[Year] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -3779,7 +3773,7 @@ where [refTable].[Year] = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">WITH s2 AS (
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">WITH s2 AS (
   SELECT
     [Year],
     Region,
@@ -4157,7 +4151,6 @@ FULL OUTER JOIN s7
       DTS:refId="Package\Load_Fact_BasicServicesFoodWaterElectricity"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{7C114A0A-01F4-4928-9CEF-F4F970C1B794}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4193,7 +4186,7 @@ FULL OUTER JOIN s7
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4437,13 +4430,13 @@ FULL OUTER JOIN s7
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimAgeGroup]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimAgeGroup]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimAgeGroup]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimAgeGroup]) [refTable]
 where [refTable].[AgeGroupCategory] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -4597,13 +4590,13 @@ where [refTable].[AgeGroupCategory] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimGeographicalLocation]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimGeographicalLocation]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
 where [refTable].[GeoLocLabel] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -4757,13 +4750,13 @@ where [refTable].[GeoLocLabel] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimRegion]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimRegion]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimRegion]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimRegion]) [refTable]
 where [refTable].[RegionName] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -4917,13 +4910,13 @@ where [refTable].[RegionName] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimSex]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimSex]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimSex]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimSex]) [refTable]
 where [refTable].[SexCode] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -5077,14 +5070,14 @@ where [refTable].[SexCode] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT TimeKey, [Year]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT TimeKey, [Year]
 FROM dwh.DimTime;</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (SELECT TimeKey, [Year]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (SELECT TimeKey, [Year]
 FROM dwh.DimTime;) [refTable]
 where [refTable].[Year] = ?</property>
                 <property
@@ -5248,7 +5241,7 @@ where [refTable].[Year] = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">WITH joined_data AS (
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">WITH joined_data AS (
   SELECT
     s1.Year,
     s1.sex,
@@ -5717,7 +5710,7 @@ GROUP BY
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -5881,13 +5874,13 @@ GROUP BY
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimGeographicalLocation]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimGeographicalLocation]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
 where [refTable].[GeoLocLabel] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -6041,13 +6034,13 @@ where [refTable].[GeoLocLabel] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimRegion]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimRegion]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimRegion]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimRegion]) [refTable]
 where [refTable].[RegionName] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -6201,13 +6194,13 @@ where [refTable].[RegionName] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimSex]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimSex]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimSex]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimSex]) [refTable]
 where [refTable].[SexCode] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -6361,13 +6354,13 @@ where [refTable].[SexCode] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimTime]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimTime]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimTime]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimTime]) [refTable]
 where [refTable].[Year] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -6530,7 +6523,7 @@ where [refTable].[Year] = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT
     [Year],
     sex,
     Region,
@@ -6775,10 +6768,932 @@ GROUP BY
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Load_Fact_EconDevIndicators"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{45d5eb1a-76e8-4368-b8f9-94e3b98d59f1}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load_Fact_EconDevIndicators"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Fact_EconDevIndicators"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dwh].[Fact_SDG_EconDevIndicators]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Connections[OleDbConnection]"
+                  connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[EconLoss_GDP_1_5_2]"
+                      cachedDataType="numeric"
+                      cachedName="EconLoss_GDP_1_5_2"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[EconLoss_GDP_1_5_2]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[EconLoss_GDP_1_5_2]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[ODA_PovRed_GNI_1_a_1]"
+                      cachedDataType="numeric"
+                      cachedName="ODA_PovRed_GNI_1_a_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ODA_PovRed_GNI_1_a_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ODA_PovRed_GNI_1_a_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[ManufValAdd_GDP_9_2_1]"
+                      cachedDataType="numeric"
+                      cachedName="ManufValAdd_GDP_9_2_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ManufValAdd_GDP_9_2_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ManufValAdd_GDP_9_2_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[ManufEmp_TotEmp_9_2_2]"
+                      cachedDataType="numeric"
+                      cachedName="ManufEmp_TotEmp_9_2_2"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ManufEmp_TotEmp_9_2_2]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ManufEmp_TotEmp_9_2_2]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[CO2_VA_9_4_1]"
+                      cachedDataType="numeric"
+                      cachedName="CO2_VA_9_4_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[CO2_VA_9_4_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[CO2_VA_9_4_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[RnD_GDP_9_5_1]"
+                      cachedDataType="numeric"
+                      cachedName="RnD_GDP_9_5_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[RnD_GDP_9_5_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[RnD_GDP_9_5_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[IntlSupport_Infra_9_a_1]"
+                      cachedDataType="numeric"
+                      cachedName="IntlSupport_Infra_9_a_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[IntlSupport_Infra_9_a_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[IntlSupport_Infra_9_a_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[HHExpGrowth_B40_Total_10_1_1]"
+                      cachedDataType="numeric"
+                      cachedName="HHExpGrowth_B40_Total_10_1_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[HHExpGrowth_B40_Total_10_1_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[HHExpGrowth_B40_Total_10_1_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[LabourShare_GDP_10_4_1]"
+                      cachedDataType="numeric"
+                      cachedName="LabourShare_GDP_10_4_1"
+                      cachedPrecision="18"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[LabourShare_GDP_10_4_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[LabourShare_GDP_10_4_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[FiscalImpact_Gini_10_4_2]"
+                      cachedDataType="numeric"
+                      cachedName="FiscalImpact_Gini_10_4_2"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[FiscalImpact_Gini_10_4_2]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[FiscalImpact_Gini_10_4_2]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[FinSoundness_10_5_1]"
+                      cachedDataType="numeric"
+                      cachedName="FinSoundness_10_5_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[FinSoundness_10_5_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[FinSoundness_10_5_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[RecruitCost_Income_10_7_1]"
+                      cachedDataType="numeric"
+                      cachedName="RecruitCost_Income_10_7_1"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[RecruitCost_Income_10_7_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[RecruitCost_Income_10_7_1]" />
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].Columns[TimeKey]"
+                      cachedDataType="i4"
+                      cachedName="TimeKey"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[TimeKey]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Match Output].Columns[TimeKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ID_Key]"
+                      dataType="i8"
+                      name="ID_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[TimeKey]"
+                      dataType="i4"
+                      name="TimeKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[EconLoss_GDP_1_5_2]"
+                      dataType="numeric"
+                      name="EconLoss_GDP_1_5_2"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ODA_PovRed_GNI_1_a_1]"
+                      dataType="numeric"
+                      name="ODA_PovRed_GNI_1_a_1"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ManufValAdd_GDP_9_2_1]"
+                      dataType="numeric"
+                      name="ManufValAdd_GDP_9_2_1"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[ManufEmp_TotEmp_9_2_2]"
+                      dataType="numeric"
+                      name="ManufEmp_TotEmp_9_2_2"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[CO2_VA_9_4_1]"
+                      dataType="numeric"
+                      name="CO2_VA_9_4_1"
+                      precision="12"
+                      scale="4" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[RnD_GDP_9_5_1]"
+                      dataType="numeric"
+                      name="RnD_GDP_9_5_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[IntlSupport_Infra_9_a_1]"
+                      dataType="numeric"
+                      name="IntlSupport_Infra_9_a_1"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[HHExpGrowth_B40_Total_10_1_1]"
+                      dataType="numeric"
+                      name="HHExpGrowth_B40_Total_10_1_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[LabourShare_GDP_10_4_1]"
+                      dataType="numeric"
+                      name="LabourShare_GDP_10_4_1"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[FiscalImpact_Gini_10_4_2]"
+                      dataType="numeric"
+                      name="FiscalImpact_Gini_10_4_2"
+                      precision="5"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[FinSoundness_10_5_1]"
+                      dataType="numeric"
+                      name="FinSoundness_10_5_1"
+                      precision="10"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input].ExternalColumns[RecruitCost_Income_10_7_1]"
+                      dataType="numeric"
+                      name="RecruitCost_Income_10_7_1"
+                      precision="5"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="LKP_dimTime"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimTime]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimTime]) [refTable]
+where [refTable].[Year] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="TimeKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[Year]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Connections[OleDbConnection]"
+                  connectionManagerID="{A2ECBFD6-D02B-4DB4-9984-D67946672C2F}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[LAPTOP-G6QLIJHM.SDG_DATAWAREHOUSE]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Inputs[Lookup Input].Columns[Year]"
+                      cachedDataType="i4"
+                      cachedName="Year"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[Year]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Year</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Match Output].Columns[TimeKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Match Output].Columns[TimeKey]"
+                      name="TimeKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">TimeKey</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load_Fact_EconDevIndicators\staging"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="staging"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">WITH sdg1 AS (
+    SELECT
+        s1.[Year],
+        MAX(s1.[1.5.2]) AS EconLoss_GDP_1_5_2,
+        MAX(s1.[1.a.1]) AS ODA_PovRed_GNI_1_a_1
+    FROM staging.stg_sdg1 s1
+    GROUP BY s1.[Year]
+),
+sdg9 AS (
+    SELECT
+        s9.[Year],
+        MAX(s9.[9.2.1]) AS ManufValAdd_GDP_9_2_1,
+        MAX(s9.[9.2.2]) AS ManufEmp_TotEmp_9_2_2,
+        MAX(s9.[9.4.1]) AS CO2_VA_9_4_1,
+        MAX(s9.[9.5.1]) AS RnD_GDP_9_5_1,
+        MAX(s9.[9.a.1]) AS IntlSupport_Infra_9_a_1
+    FROM staging.stg_sdg9 s9
+    GROUP BY s9.[Year]
+),
+sdg10 AS (
+    SELECT
+        s10.[Year],
+        MAX(s10.[10.1.1]) AS HHExpGrowth_B40_Total_10_1_1,
+        MAX(s10.[10.4.1]) AS LabourShare_GDP_10_4_1,
+        MAX(s10.[10.4.2]) AS FiscalImpact_Gini_10_4_2,
+        MAX(s10.[10.5.1]) AS FinSoundness_10_5_1,
+        MAX(s10.[10.7.1]) AS RecruitCost_Income_10_7_1
+    FROM staging.stg_sdg10 s10
+    GROUP BY s10.[Year]
+)
+
+SELECT
+    y.[Year],
+
+    MAX(sdg1.EconLoss_GDP_1_5_2)            AS EconLoss_GDP_1_5_2,
+    MAX(sdg1.ODA_PovRed_GNI_1_a_1)          AS ODA_PovRed_GNI_1_a_1,
+
+    MAX(sdg9.ManufValAdd_GDP_9_2_1)         AS ManufValAdd_GDP_9_2_1,
+    MAX(sdg9.ManufEmp_TotEmp_9_2_2)         AS ManufEmp_TotEmp_9_2_2,
+    MAX(sdg9.CO2_VA_9_4_1)                  AS CO2_VA_9_4_1,
+    MAX(sdg9.RnD_GDP_9_5_1)                 AS RnD_GDP_9_5_1,
+    MAX(sdg9.IntlSupport_Infra_9_a_1)       AS IntlSupport_Infra_9_a_1,
+
+    MAX(sdg10.HHExpGrowth_B40_Total_10_1_1) AS HHExpGrowth_B40_Total_10_1_1,
+    MAX(sdg10.LabourShare_GDP_10_4_1)       AS LabourShare_GDP_10_4_1,
+    MAX(sdg10.FiscalImpact_Gini_10_4_2)     AS FiscalImpact_Gini_10_4_2,
+    MAX(sdg10.FinSoundness_10_5_1)          AS FinSoundness_10_5_1,
+    MAX(sdg10.RecruitCost_Income_10_7_1)    AS RecruitCost_Income_10_7_1
+
+FROM (
+    SELECT [Year] FROM staging.stg_sdg1
+    UNION
+    SELECT [Year] FROM staging.stg_sdg9
+    UNION
+    SELECT [Year] FROM staging.stg_sdg10
+) y
+LEFT JOIN sdg1  ON y.[Year] = sdg1.[Year]
+LEFT JOIN sdg9  ON y.[Year] = sdg9.[Year]
+LEFT JOIN sdg10 ON y.[Year] = sdg10.[Year]
+GROUP BY y.[Year]
+ORDER BY y.[Year];</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load_Fact_EconDevIndicators\staging.Connections[OleDbConnection]"
+                  connectionManagerID="{1EA8ED6B-AFF4-4333-94C1-02BE036B2F35}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[NIAMA.SDG_STAGING_BD]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[Year]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[Year]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[Year]"
+                      name="Year"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[EconLoss_GDP_1_5_2]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[EconLoss_GDP_1_5_2]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[EconLoss_GDP_1_5_2]"
+                      name="EconLoss_GDP_1_5_2"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ODA_PovRed_GNI_1_a_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[ODA_PovRed_GNI_1_a_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ODA_PovRed_GNI_1_a_1]"
+                      name="ODA_PovRed_GNI_1_a_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ManufValAdd_GDP_9_2_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[ManufValAdd_GDP_9_2_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ManufValAdd_GDP_9_2_1]"
+                      name="ManufValAdd_GDP_9_2_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ManufEmp_TotEmp_9_2_2]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[ManufEmp_TotEmp_9_2_2]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[ManufEmp_TotEmp_9_2_2]"
+                      name="ManufEmp_TotEmp_9_2_2"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[CO2_VA_9_4_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[CO2_VA_9_4_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[CO2_VA_9_4_1]"
+                      name="CO2_VA_9_4_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[RnD_GDP_9_5_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[RnD_GDP_9_5_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[RnD_GDP_9_5_1]"
+                      name="RnD_GDP_9_5_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[IntlSupport_Infra_9_a_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[IntlSupport_Infra_9_a_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[IntlSupport_Infra_9_a_1]"
+                      name="IntlSupport_Infra_9_a_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[HHExpGrowth_B40_Total_10_1_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[HHExpGrowth_B40_Total_10_1_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[HHExpGrowth_B40_Total_10_1_1]"
+                      name="HHExpGrowth_B40_Total_10_1_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[FiscalImpact_Gini_10_4_2]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[FiscalImpact_Gini_10_4_2]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[FiscalImpact_Gini_10_4_2]"
+                      name="FiscalImpact_Gini_10_4_2"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[FinSoundness_10_5_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[FinSoundness_10_5_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[FinSoundness_10_5_1]"
+                      name="FinSoundness_10_5_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[RecruitCost_Income_10_7_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[RecruitCost_Income_10_7_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[RecruitCost_Income_10_7_1]"
+                      name="RecruitCost_Income_10_7_1"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[LabourShare_GDP_10_4_1]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[LabourShare_GDP_10_4_1]"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].Columns[LabourShare_GDP_10_4_1]"
+                      name="LabourShare_GDP_10_4_1"
+                      precision="18"
+                      scale="3"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[Year]"
+                      dataType="i4"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[EconLoss_GDP_1_5_2]"
+                      dataType="numeric"
+                      name="EconLoss_GDP_1_5_2"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[ODA_PovRed_GNI_1_a_1]"
+                      dataType="numeric"
+                      name="ODA_PovRed_GNI_1_a_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[ManufValAdd_GDP_9_2_1]"
+                      dataType="numeric"
+                      name="ManufValAdd_GDP_9_2_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[ManufEmp_TotEmp_9_2_2]"
+                      dataType="numeric"
+                      name="ManufEmp_TotEmp_9_2_2"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[CO2_VA_9_4_1]"
+                      dataType="numeric"
+                      name="CO2_VA_9_4_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[RnD_GDP_9_5_1]"
+                      dataType="numeric"
+                      name="RnD_GDP_9_5_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[IntlSupport_Infra_9_a_1]"
+                      dataType="i4"
+                      name="IntlSupport_Infra_9_a_1" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[HHExpGrowth_B40_Total_10_1_1]"
+                      dataType="numeric"
+                      name="HHExpGrowth_B40_Total_10_1_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[FiscalImpact_Gini_10_4_2]"
+                      dataType="numeric"
+                      name="FiscalImpact_Gini_10_4_2"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[FinSoundness_10_5_1]"
+                      dataType="numeric"
+                      name="FinSoundness_10_5_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[RecruitCost_Income_10_7_1]"
+                      dataType="numeric"
+                      name="RecruitCost_Income_10_7_1"
+                      precision="18"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output].ExternalColumns[LabourShare_GDP_10_4_1]"
+                      dataType="numeric"
+                      name="LabourShare_GDP_10_4_1"
+                      precision="18"
+                      scale="3" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[Year]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[Year]"
+                      name="Year" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[EconLoss_GDP_1_5_2]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[EconLoss_GDP_1_5_2]"
+                      name="EconLoss_GDP_1_5_2"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ODA_PovRed_GNI_1_a_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ODA_PovRed_GNI_1_a_1]"
+                      name="ODA_PovRed_GNI_1_a_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ManufValAdd_GDP_9_2_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ManufValAdd_GDP_9_2_1]"
+                      name="ManufValAdd_GDP_9_2_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ManufEmp_TotEmp_9_2_2]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ManufEmp_TotEmp_9_2_2]"
+                      name="ManufEmp_TotEmp_9_2_2"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[CO2_VA_9_4_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[CO2_VA_9_4_1]"
+                      name="CO2_VA_9_4_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[RnD_GDP_9_5_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[RnD_GDP_9_5_1]"
+                      name="RnD_GDP_9_5_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[IntlSupport_Infra_9_a_1]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[IntlSupport_Infra_9_a_1]"
+                      name="IntlSupport_Infra_9_a_1" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[HHExpGrowth_B40_Total_10_1_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[HHExpGrowth_B40_Total_10_1_1]"
+                      name="HHExpGrowth_B40_Total_10_1_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[LabourShare_GDP_10_4_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[LabourShare_GDP_10_4_1]"
+                      name="LabourShare_GDP_10_4_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[FiscalImpact_Gini_10_4_2]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[FiscalImpact_Gini_10_4_2]"
+                      name="FiscalImpact_Gini_10_4_2"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[FinSoundness_10_5_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[FinSoundness_10_5_1]"
+                      name="FinSoundness_10_5_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[RecruitCost_Income_10_7_1]"
+                      dataType="numeric"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[RecruitCost_Income_10_7_1]"
+                      name="RecruitCost_Income_10_7_1"
+                      precision="18"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load_Fact_EconDevIndicators.Paths[Lookup Match Output]"
+              endId="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators.Inputs[OLE DB Destination Input]"
+              name="Lookup Match Output"
+              startId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load_Fact_EconDevIndicators.Paths[OLE DB Source Output]"
+              endId="Package\Load_Fact_EconDevIndicators\LKP_dimTime.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Load_Fact_EconDevIndicators\staging.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Load_Fact_PovertyStatus"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{4e6c0def-f227-468a-af22-17152f97e7a3}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6814,7 +7729,7 @@ GROUP BY
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7022,13 +7937,13 @@ GROUP BY
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimAgeGroup]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimAgeGroup]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimAgeGroup]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimAgeGroup]) [refTable]
 where [refTable].[AgeGroupCategory] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -7182,13 +8097,13 @@ where [refTable].[AgeGroupCategory] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimDisability]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimDisability]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimDisability]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimDisability]) [refTable]
 where [refTable].[DisabilityLabel] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -7342,13 +8257,13 @@ where [refTable].[DisabilityLabel] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimEmploymentStatus]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimEmploymentStatus]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimEmploymentStatus]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimEmploymentStatus]) [refTable]
 where [refTable].[EmploymentStatus] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -7502,13 +8417,13 @@ where [refTable].[EmploymentStatus] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimGeographicalLocation]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimGeographicalLocation]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimGeographicalLocation]) [refTable]
 where [refTable].[GeoLocLabel] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -7662,13 +8577,13 @@ where [refTable].[GeoLocLabel] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimRegion]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimRegion]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimRegion]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimRegion]) [refTable]
 where [refTable].[RegionName] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -7822,13 +8737,13 @@ where [refTable].[RegionName] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimSex]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimSex]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimSex]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimSex]) [refTable]
 where [refTable].[SexCode] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -7982,13 +8897,13 @@ where [refTable].[SexCode] = ?</property>
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dwh].[DimTime]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dwh].[DimTime]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dwh].[DimTime]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dwh].[DimTime]) [refTable]
 where [refTable].[Year] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -8151,7 +9066,7 @@ where [refTable].[Year] = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">WITH joined_data AS (
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">WITH joined_data AS (
     SELECT
         s1.[Year],
         s1.sex,
@@ -8539,7 +9454,6 @@ GROUP BY
       DTS:refId="Package\Region_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{387EF387-C1D2-4E21-9A51-DDBE8DAE74EA}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8575,7 +9489,7 @@ GROUP BY
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -8696,7 +9610,7 @@ GROUP BY
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT Region AS Region FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT Region AS Region FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -8798,7 +9712,6 @@ GROUP BY
       DTS:refId="Package\Sex_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{0082568C-8115-433B-920F-21A0C91F08B0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8834,7 +9747,7 @@ GROUP BY
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -8955,7 +9868,7 @@ GROUP BY
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT sex AS SexCode
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT sex AS SexCode
 FROM staging.stg_sdg1;</property>
                 <property
                   dataType="System.String"
@@ -9058,7 +9971,6 @@ FROM staging.stg_sdg1;</property>
       DTS:refId="Package\Time_Dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{6C38EF05-05DD-4941-9D7F-100852BBE527}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -9094,7 +10006,7 @@ FROM staging.stg_sdg1;</property>
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -9211,7 +10123,7 @@ FROM staging.stg_sdg1;</property>
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT Year AS Year FROM staging.stg_sdg1</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT Year AS Year FROM staging.stg_sdg1</property>
                 <property
                   dataType="System.String"
                   description="Variable contenant la commande SQL à exécuter."
@@ -9386,6 +10298,14 @@ FROM staging.stg_sdg1;</property>
       DTS:ObjectName="Constraint 17"
       DTS:To="Package\Load_Fact_ChildMalnutrition" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 18]"
+      DTS:CreationName=""
+      DTS:DTSID="{BE2E0989-68C5-41E9-A85C-F6E7126A49E9}"
+      DTS:From="Package\Time_Dim"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 18"
+      DTS:To="Package\Load_Fact_EconDevIndicators" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
       DTS:DTSID="{1F8D1C06-B06B-4F2C-8BD4-F3FF176C1A5C}"
@@ -9499,71 +10419,75 @@ FROM staging.stg_sdg1;</property>
       DTS:To="Package\Load_FactWomenEmpowerment" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
-<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
-<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
   Version="8">
-  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="150.4,42.4"
+          Size="150.666666666667,42.6666666666667"
           Id="Package\AgeGroup_Dim"
           TopLeft="193.472213676821,61.6777750089431" />
         <NodeLayout
-          Size="146.4,42.4"
+          Size="146.666666666667,42.6666666666667"
           Id="Package\Disability_Dim"
           TopLeft="523.958325105621,427.472197217192" />
         <NodeLayout
-          Size="204,42.4"
+          Size="204,42.6666666666667"
           Id="Package\Employement_Status_Dim"
           TopLeft="265.79363153607,436.76902176368" />
         <NodeLayout
-          Size="187.2,41.6"
+          Size="187.333333333334,41.3333333333334"
           Id="Package\Form_of_Violence_Dim"
           TopLeft="750.079323409727,442.076958776711" />
         <NodeLayout
-          Size="210.4,42.4"
+          Size="210.666666666667,42.6666666666667"
           Id="Package\Geographical_Location_Dim"
           TopLeft="364.952360436676,65.0095231686038" />
         <NodeLayout
-          Size="220,42.4"
+          Size="220,42.6666666666667"
           Id="Package\Load_fact_agri_water_energy"
-          TopLeft="318.660722017022,276.002376630505" />
+          TopLeft="303.035722715514,283.98483268321" />
         <NodeLayout
-          Size="292,42.4"
+          Size="292,42.6666666666667"
           Id="Package\Load_Fact_BasicServicesFoodWaterElectricity"
           TopLeft="5.65477212713489,275.909519618451" />
         <NodeLayout
-          Size="212,42.4"
+          Size="212,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition"
-          TopLeft="854.791628901537,276.52776718802" />
+          TopLeft="735.208300913995,272.148820153969" />
         <NodeLayout
-          Size="198.4,42.4"
+          Size="221.333333333334,42.6666666666667"
+          Id="Package\Load_Fact_EconDevIndicators"
+          TopLeft="950.208314697569,75.8666639391582" />
+        <NodeLayout
+          Size="198.666666666667,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus"
-          TopLeft="604.374972982333,283.066659145355" />
+          TopLeft="533.541642815496,284.207010010027" />
         <NodeLayout
-          Size="238.4,41.6"
+          Size="238.666666666667,41.3333333333334"
           Id="Package\Load_FactViolenceAgainstWomen"
-          TopLeft="1102.08327311816,278.777775839192" />
+          TopLeft="959.374946164385,292.461986215258" />
         <NodeLayout
-          Size="230.4,41.6"
+          Size="230.666666666667,41.3333333333334"
           Id="Package\Load_FactWomenEmpowerment"
-          TopLeft="1431.24992179995,277.694442513392" />
+          TopLeft="1203.12493199793,294.799705483474" />
         <NodeLayout
-          Size="136,42.4"
+          Size="136,42.6666666666667"
           Id="Package\Region_Dim"
           TopLeft="601.51783754384,66.8666660312811" />
         <NodeLayout
-          Size="121.6,42.4"
+          Size="121.333333333334,42.6666666666667"
           Id="Package\Sex_Dim"
           TopLeft="51.2499975040557,63.699997175634" />
         <NodeLayout
-          Size="128,42.4"
+          Size="128,42.6666666666667"
           Id="Package\Time_Dim"
           TopLeft="750.335258113442,68.3118949086942" />
         <EdgeLayout
@@ -9636,30 +10560,18 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="701.51783754384,109.533332697948">
+          TopLeft="662.513867163795,109.533332697948">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="59.3904687718265,173.533326447408"
+              EndConnector="0,174.673677312079"
               Start="0,0"
-              End="59.3904687718265,166.033326447408">
+              End="0,167.173677312079">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,92.343541759532" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,92.343541759532"
-                    Point2="0,96.343541759532"
-                    Point3="4,96.343541759532" />
-                  <mssgle:LineSegment
-                    End="55.3904687718265,96.343541759532" />
-                  <mssgle:CubicBezierSegment
-                    Point1="55.3904687718265,96.343541759532"
-                    Point2="59.3904687718265,96.343541759532"
-                    Point3="59.3904687718265,100.343541759532" />
-                  <mssgle:LineSegment
-                    End="59.3904687718265,166.033326447408" />
+                    End="0,167.173677312079" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9670,30 +10582,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="844.335258113442,110.978561575361">
+          TopLeft="805.763829542013,110.978561575361">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-77.0713962422209,172.088097569995"
+              EndConnector="-109.333297837628,173.228448434666"
               Start="0,0"
-              End="-77.0713962422209,164.588097569995">
+              End="-109.333297837628,165.728448434666">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,98.5564625075985" />
+                    End="0,118.347124100906" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,98.5564625075985"
-                    Point2="0,102.556462507599"
-                    Point3="-4,102.556462507599" />
+                    Point1="0,118.347124100906"
+                    Point2="0,122.347124100906"
+                    Point3="-4,122.347124100906" />
                   <mssgle:LineSegment
-                    End="-73.0713962422209,102.556462507599" />
+                    End="-105.333297837628,122.347124100906" />
                   <mssgle:CubicBezierSegment
-                    Point1="-73.0713962422209,102.556462507599"
-                    Point2="-77.0713962422209,102.556462507599"
-                    Point3="-77.0713962422209,106.556462507599" />
+                    Point1="-105.333297837628,122.347124100906"
+                    Point2="-109.333297837628,122.347124100906"
+                    Point3="-109.333297837628,126.347124100906" />
                   <mssgle:LineSegment
-                    End="-77.0713962422209,164.588097569995" />
+                    End="-109.333297837628,165.728448434666" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9708,26 +10620,26 @@ FROM staging.stg_sdg1;</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="335.914674779596,-111.035695951657"
+              EndConnector="233.303566834982,-109.895345086986"
               Start="0,0"
-              End="335.914674779596,-103.535695951657">
+              End="233.303566834982,-102.395345086986">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-51.5178479758287" />
+                    End="0,-61.4104117894578" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-51.5178479758287"
-                    Point2="0,-55.5178479758287"
-                    Point3="4,-55.5178479758287" />
+                    Point1="0,-61.4104117894578"
+                    Point2="0,-65.4104117894578"
+                    Point3="4,-65.4104117894578" />
                   <mssgle:LineSegment
-                    End="331.914674779596,-55.5178479758287" />
+                    End="229.303566834982,-65.4104117894578" />
                   <mssgle:CubicBezierSegment
-                    Point1="331.914674779596,-55.5178479758287"
-                    Point2="335.914674779596,-55.5178479758287"
-                    Point3="335.914674779596,-59.5178479758287" />
+                    Point1="229.303566834982,-65.4104117894578"
+                    Point2="233.303566834982,-65.4104117894578"
+                    Point3="233.303566834982,-69.4104117894578" />
                   <mssgle:LineSegment
-                    End="335.914674779596,-103.535695951657" />
+                    End="233.303566834982,-102.395345086986" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9738,30 +10650,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 13]"
-          TopLeft="597.291658438955,427.472197217192">
+          TopLeft="597.291658438954,427.472197217192">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="138.194425654489,-101.73887140517"
+              EndConnector="67.361095487653,-100.598520540498"
               Start="0,0"
-              End="138.194425654489,-94.2388714051698">
+              End="67.361095487653,-93.0985205404982">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-56.5556265221184" />
+                    End="0,-55.8768823989383" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-56.5556265221184"
-                    Point2="0,-60.5556265221184"
-                    Point3="4,-60.5556265221184" />
+                    Point1="0,-55.8768823989383"
+                    Point2="0,-59.8768823989383"
+                    Point3="4,-59.8768823989383" />
                   <mssgle:LineSegment
-                    End="134.194425654489,-60.5556265221184" />
+                    End="63.361095487653,-59.8768823989383" />
                   <mssgle:CubicBezierSegment
-                    Point1="134.194425654489,-60.5556265221184"
-                    Point2="138.194425654489,-60.5556265221184"
-                    Point3="138.194425654489,-64.5556265221184" />
+                    Point1="63.361095487653,-59.8768823989383"
+                    Point2="67.361095487653,-59.8768823989383"
+                    Point3="67.361095487653,-63.8768823989383" />
                   <mssgle:LineSegment
-                    End="138.194425654489,-94.2388714051698" />
+                    End="67.361095487653,-93.0985205404982" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9772,30 +10684,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 14]"
-          TopLeft="850.335258113442,110.978561575361">
+          TopLeft="822.906686684871,110.978561575361">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="171.656370788095,165.549205612659"
+              EndConnector="79.5016142291245,161.170258578608"
               Start="0,0"
-              End="171.656370788095,158.049205612659">
+              End="79.5016142291245,153.670258578608">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,80.2044903787996" />
+                    End="0,104.313459090777" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,80.2044903787996"
-                    Point2="0,84.2044903787996"
-                    Point3="4,84.2044903787996" />
+                    Point1="0,104.313459090777"
+                    Point2="0,108.313459090777"
+                    Point3="4,108.313459090777" />
                   <mssgle:LineSegment
-                    End="167.656370788095,84.2044903787996" />
+                    End="75.5016142291245,108.313459090777" />
                   <mssgle:CubicBezierSegment
-                    Point1="167.656370788095,84.2044903787996"
-                    Point2="171.656370788095,84.2044903787996"
-                    Point3="171.656370788095,88.2044903787996" />
+                    Point1="75.5016142291245,108.313459090777"
+                    Point2="79.5016142291245,108.313459090777"
+                    Point3="79.5016142291245,112.313459090777" />
                   <mssgle:LineSegment
-                    End="171.656370788095,158.049205612659" />
+                    End="79.5016142291245,153.670258578608" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9810,26 +10722,26 @@ FROM staging.stg_sdg1;</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="759.341631397482,170.161103345719"
+              EndConnector="639.758303409939,165.782156311668"
               Start="0,0"
-              End="759.341631397482,162.661103345719">
+              End="639.758303409939,158.282156311668">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,90.9031474213307" />
+                    End="0,88.4608980015065" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,90.9031474213307"
-                    Point2="0,94.9031474213307"
-                    Point3="4,94.9031474213307" />
+                    Point1="0,88.4608980015065"
+                    Point2="0,92.4608980015065"
+                    Point3="4,92.4608980015065" />
                   <mssgle:LineSegment
-                    End="755.341631397482,94.9031474213307" />
+                    End="635.758303409939,92.4608980015065" />
                   <mssgle:CubicBezierSegment
-                    Point1="755.341631397482,94.9031474213307"
-                    Point2="759.341631397482,94.9031474213307"
-                    Point3="759.341631397482,98.9031474213307" />
+                    Point1="635.758303409939,92.4608980015065"
+                    Point2="639.758303409939,92.4608980015065"
+                    Point3="639.758303409939,96.4608980015065" />
                   <mssgle:LineSegment
-                    End="759.341631397482,162.661103345719" />
+                    End="639.758303409939,158.282156311668" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9840,30 +10752,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 16]"
-          TopLeft="707.917837543839,109.533332697948">
+          TopLeft="678.660694686697,109.533332697948">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="273.273791357698,166.994434490072"
+              EndConnector="182.947606227298,162.615487456021"
               Start="0,0"
-              End="273.273791357698,159.494434490072">
+              End="182.947606227298,155.115487456021">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,54.4883168485499" />
+                    End="0,80.1263382064802" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,54.4883168485499"
-                    Point2="0,58.4883168485499"
-                    Point3="4,58.4883168485499" />
+                    Point1="0,80.1263382064802"
+                    Point2="0,84.1263382064802"
+                    Point3="4,84.1263382064802" />
                   <mssgle:LineSegment
-                    End="269.273791357698,58.4883168485499" />
+                    End="178.947606227298,84.1263382064802" />
                   <mssgle:CubicBezierSegment
-                    Point1="269.273791357698,58.4883168485499"
-                    Point2="273.273791357698,58.4883168485499"
-                    Point3="273.273791357698,62.4883168485499" />
+                    Point1="178.947606227298,84.1263382064802"
+                    Point2="182.947606227298,84.1263382064802"
+                    Point3="182.947606227298,88.1263382064802" />
                   <mssgle:LineSegment
-                    End="273.273791357698,159.494434490072" />
+                    End="182.947606227298,155.115487456021" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9874,30 +10786,52 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 17]"
-          TopLeft="520.952360436676,107.67618983527">
+          TopLeft="490.552360436676,107.67618983527">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="419.439268464862,168.851577352749"
+              EndConnector="330.255940477319,164.472630318699"
               Start="0,0"
-              End="419.439268464862,161.351577352749">
+              End="330.255940477319,156.972630318699">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.0607247826012" />
+                    End="0,78.2387472510051" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,62.0607247826012"
-                    Point2="0,66.0607247826012"
-                    Point3="4,66.0607247826012" />
+                    Point1="0,78.2387472510051"
+                    Point2="0,82.2387472510051"
+                    Point3="4,82.2387472510051" />
                   <mssgle:LineSegment
-                    End="415.439268464862,66.0607247826012" />
+                    End="326.255940477319,82.2387472510051" />
                   <mssgle:CubicBezierSegment
-                    Point1="415.439268464862,66.0607247826012"
-                    Point2="419.439268464862,66.0607247826012"
-                    Point3="419.439268464862,70.0607247826012" />
+                    Point1="326.255940477319,82.2387472510051"
+                    Point2="330.255940477319,82.2387472510051"
+                    Point3="330.255940477319,86.2387472510051" />
                   <mssgle:LineSegment
-                    End="419.439268464862,161.351577352749" />
+                    End="330.255940477319,156.972630318699" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 18]"
+          TopLeft="878.335258113442,93.4226127572595">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="71.8730565841273,0"
+              Start="0,0"
+              End="64.3730565841273,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="64.3730565841273,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10010,30 +10944,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="834.335258113442,110.978561575361">
+          TopLeft="788.620972399156,110.978561575361">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-370.341202763087,165.023815055144"
+              EndConnector="-340.251916350309,173.006271107849"
               Start="0,0"
-              End="-370.341202763087,157.523815055144">
+              End="-340.251916350309,165.506271107849">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,79.0380438938413" />
+                    End="0,77.0451428915325" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,79.0380438938413"
-                    Point2="0,83.0380438938413"
-                    Point3="-4,83.0380438938413" />
+                    Point1="0,77.0451428915325"
+                    Point2="0,81.0451428915325"
+                    Point3="-4,81.0451428915325" />
                   <mssgle:LineSegment
-                    End="-366.341202763087,83.0380438938413" />
+                    End="-336.251916350309,81.0451428915325" />
                   <mssgle:CubicBezierSegment
-                    Point1="-366.341202763087,83.0380438938413"
-                    Point2="-370.341202763087,83.0380438938413"
-                    Point3="-370.341202763087,87.0380438938413" />
+                    Point1="-336.251916350309,81.0451428915325"
+                    Point2="-340.251916350309,81.0451428915325"
+                    Point3="-340.251916350309,85.0451428915325" />
                   <mssgle:LineSegment
-                    End="-370.341202763087,157.523815055144" />
+                    End="-340.251916350309,165.506271107849" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10044,30 +10978,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="690.851170877173,109.533332697948">
+          TopLeft="642.089266115269,109.533332697948">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-297.523782193484,166.469043932557"
+              EndConnector="-264.386876733088,174.451499985262"
               Start="0,0"
-              End="-297.523782193484,158.969043932557">
+              End="-264.386876733088,166.951499985262">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,79.6910184304444" />
+                    End="0,77.6076078076647" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,79.6910184304444"
-                    Point2="0,83.6910184304444"
-                    Point3="-4,83.6910184304444" />
+                    Point1="0,77.6076078076647"
+                    Point2="0,81.6076078076647"
+                    Point3="-4,81.6076078076647" />
                   <mssgle:LineSegment
-                    End="-293.523782193484,83.6910184304444" />
+                    End="-260.386876733088,81.6076078076647" />
                   <mssgle:CubicBezierSegment
-                    Point1="-293.523782193484,83.6910184304444"
-                    Point2="-297.523782193484,83.6910184304444"
-                    Point3="-297.523782193484,87.6910184304444" />
+                    Point1="-260.386876733088,81.6076078076647"
+                    Point2="-264.386876733088,81.6076078076647"
+                    Point3="-264.386876733088,85.6076078076647" />
                   <mssgle:LineSegment
-                    End="-297.523782193484,158.969043932557" />
+                    End="-264.386876733088,166.951499985262" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10078,30 +11012,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="130.805553059611,106.366663842301">
+          TopLeft="111.916664170722,106.366663842301">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="572.902753256055,176.699995303055"
+              EndConnector="457.402756422552,177.840346167726"
               Start="0,0"
-              End="572.902753256055,169.199995303055">
+              End="457.402756422552,170.340346167726">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,68.0598679326991" />
+                    End="0,126.747754501602" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,68.0598679326991"
-                    Point2="0,72.0598679326991"
-                    Point3="4,72.0598679326991" />
+                    Point1="0,126.747754501602"
+                    Point2="0,130.747754501602"
+                    Point3="4,130.747754501602" />
                   <mssgle:LineSegment
-                    End="568.902753256055,72.0598679326991" />
+                    End="453.402756422552,130.747754501602" />
                   <mssgle:CubicBezierSegment
-                    Point1="568.902753256055,72.0598679326991"
-                    Point2="572.902753256055,72.0598679326991"
-                    Point3="572.902753256055,76.0598679326991" />
+                    Point1="453.402756422552,130.747754501602"
+                    Point2="457.402756422552,130.747754501602"
+                    Point3="457.402756422552,134.747754501602" />
                   <mssgle:LineSegment
-                    End="572.902753256055,169.199995303055" />
+                    End="457.402756422552,170.340346167726" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10116,26 +11050,26 @@ FROM staging.stg_sdg1;</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="442.902759305512,178.722217469746"
+              EndConnector="308.51387358312,179.862568334417"
               Start="0,0"
-              End="442.902759305512,171.222217469746">
+              End="308.51387358312,172.362568334417">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,85.6411725695613" />
+                    End="0,86.2131349707508" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,85.6411725695613"
-                    Point2="0,89.6411725695613"
-                    Point3="4,89.6411725695613" />
+                    Point1="0,86.2131349707508"
+                    Point2="0,90.2131349707508"
+                    Point3="4,90.2131349707508" />
                   <mssgle:LineSegment
-                    End="438.902759305512,89.6411725695613" />
+                    End="304.51387358312,90.2131349707508" />
                   <mssgle:CubicBezierSegment
-                    Point1="438.902759305512,89.6411725695613"
-                    Point2="442.902759305512,89.6411725695613"
-                    Point3="442.902759305512,93.6411725695613" />
+                    Point1="304.51387358312,90.2131349707508"
+                    Point2="308.51387358312,90.2131349707508"
+                    Point3="308.51387358312,94.2131349707508" />
                   <mssgle:LineSegment
-                    End="442.902759305512,171.222217469746" />
+                    End="308.51387358312,172.362568334417" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10146,30 +11080,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="504.063471547787,107.67618983527">
+          TopLeft="450.019027103343,107.67618983527">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="247.311501434546,175.390469310085"
+              EndConnector="182.855949045487,176.530820174757"
               Start="0,0"
-              End="247.311501434546,167.890469310085">
+              End="182.855949045487,169.030820174757">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,95.3340329885526" />
+                    End="0,74.8702123749963" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,95.3340329885526"
-                    Point2="0,99.3340329885526"
-                    Point3="4,99.3340329885526" />
+                    Point1="0,74.8702123749963"
+                    Point2="0,78.8702123749963"
+                    Point3="4,78.8702123749963" />
                   <mssgle:LineSegment
-                    End="243.311501434546,99.3340329885526" />
+                    End="178.855949045487,78.8702123749963" />
                   <mssgle:CubicBezierSegment
-                    Point1="243.311501434546,99.3340329885526"
-                    Point2="247.311501434546,99.3340329885526"
-                    Point3="247.311501434546,103.334032988553" />
+                    Point1="178.855949045487,78.8702123749963"
+                    Point2="182.855949045487,78.8702123749963"
+                    Point3="182.855949045487,82.8702123749963" />
                   <mssgle:LineSegment
-                    End="247.311501434546,167.890469310085" />
+                    End="182.855949045487,169.030820174757" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10180,30 +11114,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="840.049543827728,110.711894908694">
+          TopLeft="840.049543827728,110.978561575361">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="419.633729290432,168.065880930498"
+              EndConnector="277.103180114435,181.483424639897"
               Start="0,0"
-              End="419.633729290432,160.565880930498">
+              End="277.103180114435,173.983424639897">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,74.7885273223365" />
+                    End="0,81.0794446052464" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,74.7885273223365"
-                    Point2="0,78.7885273223365"
-                    Point3="4,78.7885273223365" />
+                    Point1="0,81.0794446052464"
+                    Point2="0,85.0794446052464"
+                    Point3="4,85.0794446052464" />
                   <mssgle:LineSegment
-                    End="415.633729290432,78.7885273223365" />
+                    End="273.103180114435,85.0794446052464" />
                   <mssgle:CubicBezierSegment
-                    Point1="415.633729290432,78.7885273223365"
-                    Point2="419.633729290432,78.7885273223365"
-                    Point3="419.633729290432,82.7885273223365" />
+                    Point1="273.103180114435,85.0794446052464"
+                    Point2="277.103180114435,85.0794446052464"
+                    Point3="277.103180114435,89.0794446052464" />
                   <mssgle:LineSegment
-                    End="419.633729290432,160.565880930498" />
+                    End="277.103180114435,173.983424639897" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10214,30 +11148,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="696.946408972411,109.266666031281">
+          TopLeft="696.946408972411,109.533332697948">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="485.936864145748,169.511109807911"
+              EndConnector="343.317426080863,182.92865351731"
               Start="0,0"
-              End="485.936864145748,162.011109807911">
+              End="343.317426080863,175.42865351731">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,75.3547230134476" />
+                    End="0,81.6368352424946" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,75.3547230134476"
-                    Point2="0,79.3547230134476"
-                    Point3="4,79.3547230134476" />
+                    Point1="0,81.6368352424946"
+                    Point2="0,85.6368352424946"
+                    Point3="4,85.6368352424946" />
                   <mssgle:LineSegment
-                    End="481.936864145748,79.3547230134476" />
+                    End="339.317426080863,85.6368352424946" />
                   <mssgle:CubicBezierSegment
-                    Point1="481.936864145748,79.3547230134476"
-                    Point2="485.936864145748,79.3547230134476"
-                    Point3="485.936864145748,83.3547230134476" />
+                    Point1="339.317426080863,85.6368352424946"
+                    Point2="343.317426080863,85.6368352424946"
+                    Point3="343.317426080863,89.6368352424946" />
                   <mssgle:LineSegment
-                    End="485.936864145748,162.011109807911" />
+                    End="343.317426080863,175.42865351731" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10248,30 +11182,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 2]"
-          TopLeft="843.679323409727,442.076958776711">
+          TopLeft="843.745990076394,442.076958776711">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="377.603949708433,-121.699182937519"
+              EndConnector="234.962289421325,-108.28163922812"
               Start="0,0"
-              End="377.603949708433,-114.199182937519">
+              End="234.962289421325,-100.78163922812">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-56.8495914687595" />
+                    End="0,-50.1408196140599" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-56.8495914687595"
-                    Point2="0,-60.8495914687595"
-                    Point3="4,-60.8495914687595" />
+                    Point1="0,-50.1408196140599"
+                    Point2="0,-54.1408196140599"
+                    Point3="4,-54.1408196140599" />
                   <mssgle:LineSegment
-                    End="373.603949708433,-60.8495914687595" />
+                    End="230.962289421325,-54.1408196140599" />
                   <mssgle:CubicBezierSegment
-                    Point1="373.603949708433,-60.8495914687595"
-                    Point2="377.603949708433,-60.8495914687595"
-                    Point3="377.603949708433,-64.8495914687595" />
+                    Point1="230.962289421325,-54.1408196140599"
+                    Point2="234.962289421325,-54.1408196140599"
+                    Point3="234.962289421325,-58.1408196140599" />
                   <mssgle:LineSegment
-                    End="377.603949708433,-114.199182937519" />
+                    End="234.962289421325,-100.78163922812" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10282,30 +11216,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 3]"
-          TopLeft="530.872360436676,107.409523168604">
+          TopLeft="531.085693770009,107.67618983527">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="1015.57756136328,170.284919344788"
+              EndConnector="731.705904894589,187.123515648204"
               Start="0,0"
-              End="1015.57756136328,162.784919344788">
+              End="731.705904894589,179.623515648204">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.6031080468745" />
+                    End="0,80.1514782132394" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,46.6031080468745"
-                    Point2="0,50.6031080468745"
-                    Point3="4,50.6031080468745" />
+                    Point1="0,80.1514782132394"
+                    Point2="0,84.1514782132394"
+                    Point3="4,84.1514782132394" />
                   <mssgle:LineSegment
-                    End="1011.57756136328,50.6031080468745" />
+                    End="727.705904894589,84.1514782132394" />
                   <mssgle:CubicBezierSegment
-                    Point1="1011.57756136328,50.6031080468745"
-                    Point2="1015.57756136328,50.6031080468745"
-                    Point3="1015.57756136328,54.6031080468745" />
+                    Point1="727.705904894589,84.1514782132394"
+                    Point2="731.705904894589,84.1514782132394"
+                    Point3="731.705904894589,88.1514782132394" />
                   <mssgle:LineSegment
-                    End="1015.57756136328,162.784919344788" />
+                    End="731.705904894589,179.623515648204" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10316,30 +11250,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 4]"
-          TopLeft="715.232123258126,109.266666031281">
+          TopLeft="715.232123258126,109.533332697948">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="868.284465208493,168.427776482111"
+              EndConnector="603.22614207314,185.266372785526"
               Start="0,0"
-              End="868.284465208493,160.927776482111">
+              End="603.22614207314,177.766372785526">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,50.8713367141179" />
+                    End="0,41.7303072065541" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,50.8713367141179"
-                    Point2="0,54.8713367141179"
-                    Point3="4,54.8713367141179" />
+                    Point1="0,41.7303072065541"
+                    Point2="0,45.7303072065541"
+                    Point3="4,45.7303072065541" />
                   <mssgle:LineSegment
-                    End="864.284465208493,54.8713367141179" />
+                    End="599.22614207314,45.7303072065541" />
                   <mssgle:CubicBezierSegment
-                    Point1="864.284465208493,54.8713367141179"
-                    Point2="868.284465208493,54.8713367141179"
-                    Point3="868.284465208493,58.8713367141179" />
+                    Point1="599.22614207314,45.7303072065541"
+                    Point2="603.22614207314,45.7303072065541"
+                    Point3="603.22614207314,49.7303072065541" />
                   <mssgle:LineSegment
-                    End="868.284465208493,160.927776482111" />
+                    End="603.22614207314,177.766372785526" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10350,30 +11284,30 @@ FROM staging.stg_sdg1;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 5]"
-          TopLeft="857.192400970585,110.711894908694">
+          TopLeft="857.192400970585,110.978561575361">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="744.857520829367,166.982547604698"
+              EndConnector="516.932531027347,183.821143908113"
               Start="0,0"
-              End="744.857520829367,159.482547604698">
+              End="516.932531027347,176.321143908113">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,61.0733626124801" />
+                    End="0,67.6370862804161" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,61.0733626124801"
-                    Point2="0,65.0733626124801"
-                    Point3="4,65.0733626124801" />
+                    Point1="0,67.6370862804161"
+                    Point2="0,71.6370862804161"
+                    Point3="4,71.6370862804161" />
                   <mssgle:LineSegment
-                    End="740.857520829367,65.0733626124801" />
+                    End="512.932531027347,71.6370862804161" />
                   <mssgle:CubicBezierSegment
-                    Point1="740.857520829367,65.0733626124801"
-                    Point2="744.857520829367,65.0733626124801"
-                    Point3="744.857520829367,69.0733626124801" />
+                    Point1="512.932531027347,71.6370862804161"
+                    Point2="516.932531027347,71.6370862804161"
+                    Point3="516.932531027347,75.6370862804161" />
                   <mssgle:LineSegment
-                    End="744.857520829367,159.482547604698" />
+                    End="516.932531027347,176.321143908113" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10610,11 +11544,11 @@ FROM staging.stg_sdg1;</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171.333333333334,41.3333333333334"
           Id="Package\Form_of_Violence_Dim\Destination OLE DB"
           TopLeft="506.999992445111,199.999997019768" />
         <NodeLayout
-          Size="152,41.6"
+          Size="152,41.3333333333334"
           Id="Package\Form_of_Violence_Dim\Source OLE DB"
           TopLeft="515.999992311001,94.9999985843897" />
         <EdgeLayout
@@ -10671,11 +11605,11 @@ FROM staging.stg_sdg1;</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171.333333333334,41.3333333333334"
           Id="Package\Geographical_Location_Dim\Destination OLE DB"
           TopLeft="504.999992474914,202.999996975064" />
         <NodeLayout
-          Size="152,41.6"
+          Size="152,41.3333333333334"
           Id="Package\Geographical_Location_Dim\Source OLE DB"
           TopLeft="450.999993279576,89.9999986588955" />
         <EdgeLayout
@@ -10839,7 +11773,7 @@ FROM staging.stg_sdg1;</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.72736378205127,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,8.72736378205125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -11240,27 +12174,27 @@ FROM staging.stg_sdg1;</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="170.4,42.4"
+          Size="170.666666666667,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition\LKP_dimGeography"
           TopLeft="276.999991744757,363.999990046024" />
         <NodeLayout
-          Size="137.6,42.4"
+          Size="137.333333333334,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition\LKP_dimSex"
           TopLeft="290.999991327524,293.666658590237" />
         <NodeLayout
-          Size="113.6,42.4"
+          Size="113.333333333334,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition\staging"
           TopLeft="298.307692307692,33.4358974358975" />
         <NodeLayout
-          Size="152,42.4"
+          Size="152,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition\LKP_dimRegion"
           TopLeft="287.692307692308,202.307692307692" />
         <NodeLayout
-          Size="144,42.4"
+          Size="144,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition\LKP_dimTime"
           TopLeft="289.230769230769,123.076923076923" />
         <NodeLayout
-          Size="184,42.4"
+          Size="184,42.6666666666667"
           Id="Package\Load_Fact_ChildMalnutrition\Fact_ChildMalnutrition"
           TopLeft="280.999999970198,461.538456293252" />
         <EdgeLayout
@@ -11418,44 +12352,166 @@ FROM staging.stg_sdg1;</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Load_Fact_EconDevIndicators">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="113.333333333334,42.6666666666667"
+          Id="Package\Load_Fact_EconDevIndicators\staging"
+          TopLeft="298.307692307692,33.4358974358975" />
+        <NodeLayout
+          Size="144,42.6666666666667"
+          Id="Package\Load_Fact_EconDevIndicators\LKP_dimTime"
+          TopLeft="289.230769230769,123.076923076923" />
+        <NodeLayout
+          Size="193.333333333334,42.6666666666667"
+          Id="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators"
+          TopLeft="277.000000089407,193.205130917139" />
+        <EdgeLayout
+          Id="Package\Load_Fact_EconDevIndicators.Paths[OLE DB Source Output]"
+          TopLeft="358.102564102564,76.1025641025642">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.9743589743588"
+              Start="0,0"
+              End="0,39.4743589743588">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.4743589743588" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_Fact_EconDevIndicators.Paths[Lookup Match Output]"
+          TopLeft="361.230769230769,165.74358974359">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12.4358975253048,27.4615411735491"
+              Start="0,0"
+              End="12.4358975253048,19.9615411735491">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.73077058677455" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.73077058677455"
+                    Point2="0,13.7307705867746"
+                    Point3="4,13.7307705867746" />
+                  <mssgle:LineSegment
+                    End="8.43589752530482,13.7307705867746" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8.43589752530482,13.7307705867746"
+                    Point2="12.4358975253048,13.7307705867746"
+                    Point3="12.4358975253048,17.7307705867746" />
+                  <mssgle:LineSegment
+                    End="12.4358975253048,19.9615411735491" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-41.9734379560976,18.7307705867746,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_EconDevIndicators\LKP_dimTime">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimTime]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_EconDevIndicators\Fact_EconDevIndicators">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_EconDevIndicators\staging">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Load_Fact_PovertyStatus">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="162.4,42.4"
+          Size="162.666666666667,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimDisability"
           TopLeft="274.999991804362,535.333322008451" />
         <NodeLayout
-          Size="170.4,42.4"
+          Size="170.666666666667,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimGeography"
           TopLeft="276.999991744757,438.99998781085" />
         <NodeLayout
-          Size="137.6,42.4"
+          Size="137.333333333334,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimSex"
           TopLeft="291.999991297722,356.666656712691" />
         <NodeLayout
-          Size="113.6,42.4"
+          Size="113.333333333334,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\staging"
           TopLeft="298.307692307692,33.4358974358975" />
         <NodeLayout
-          Size="166.4,42.4"
+          Size="166.666666666667,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimAgeGroup"
           TopLeft="279.99999165535,281.666658947865" />
         <NodeLayout
-          Size="208,42.4"
+          Size="208,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimEmploymentStatus"
           TopLeft="240.999992817641,637.666654358308" />
         <NodeLayout
-          Size="152,42.4"
+          Size="152,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimRegion"
           TopLeft="287.692307692308,202.307692307692" />
         <NodeLayout
-          Size="144,42.4"
+          Size="144,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\LKP_dimTime"
           TopLeft="289.230769230769,123.076923076923" />
         <NodeLayout
-          Size="169.6,42.4"
+          Size="169.333333333334,42.6666666666667"
           Id="Package\Load_Fact_PovertyStatus\Fact_PovertyStatus"
           TopLeft="262.000000536442,721.205115181513" />
         <EdgeLayout
@@ -11787,6 +12843,29 @@ FROM staging.stg_sdg1;</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Load_Fact_PovertyStatus\LKP_dimTime">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dwh].[DimTime]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load_Fact_PovertyStatus\Fact_PovertyStatus">
     <Properties>
       <Property>
@@ -11805,23 +12884,23 @@ FROM staging.stg_sdg1;</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="220,41.6"
+          Size="220,41.3333333333334"
           Id="Package\Load_FactViolenceAgainstWomen\Lookup_dim_form_of_violence"
           TopLeft="574.999991431832,296.999995574355" />
         <NodeLayout
-          Size="160.8,41.6"
+          Size="160.666666666667,41.3333333333334"
           Id="Package\Load_FactViolenceAgainstWomen\Lookup_dim_time"
           TopLeft="465.999993056059,125.999998122454" />
         <NodeLayout
-          Size="169.6,41.6"
+          Size="169.333333333334,41.3333333333334"
           Id="Package\Load_FactViolenceAgainstWomen\Lookup_dim_region"
           TopLeft="477.999992877245,216.999996766448" />
         <NodeLayout
-          Size="152,41.6"
+          Size="152,41.3333333333334"
           Id="Package\Load_FactViolenceAgainstWomen\Source OLE DB"
           TopLeft="483.999992787838,29.9999995529652" />
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171.333333333334,41.3333333333334"
           Id="Package\Load_FactViolenceAgainstWomen\Destination OLE DB"
           TopLeft="564.999991580844,387.99999421835" />
         <EdgeLayout
@@ -11855,7 +12934,9 @@ FROM staging.stg_sdg1;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11975,87 +13056,21 @@ FROM staging.stg_sdg1;</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Source OLE DB"
-          TopLeft="593.99999114871,20.9999996870756" />
-        <NodeLayout
           Size="156.8,41.6"
           Id="Package\Load_FactWomenEmpowerment\Lookup_timeDim"
           TopLeft="639.999990463257,123.999998152256" />
-        <EdgeLayout
-          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de source OLE DB]"
-          TopLeft="669.99999114871,62.5999996870756">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="48.3999993145467,61.3999984651804"
-              Start="0,0"
-              End="48.3999993145467,53.8999984651804">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.6999992325902" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.6999992325902"
-                    Point2="0,30.6999992325902"
-                    Point3="4,30.6999992325902" />
-                  <mssgle:LineSegment
-                    End="44.3999993145467,30.6999992325902" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.3999993145467,30.6999992325902"
-                    Point2="48.3999993145467,30.6999992325902"
-                    Point3="48.3999993145467,34.6999992325902" />
-                  <mssgle:LineSegment
-                    End="48.3999993145467,53.8999984651804" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\Load_FactWomenEmpowerment\Lookup_RegionDim"
           TopLeft="605.999990969896,228.999996587634" />
-        <EdgeLayout
-          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance]"
-          TopLeft="718.399990463257,165.599998152256">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-27.5999994933607,63.3999984353781"
-              Start="0,0"
-              End="-27.5999994933607,55.8999984353781">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.6999992176891" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.6999992176891"
-                    Point2="0,31.6999992176891"
-                    Point3="-4,31.6999992176891" />
-                  <mssgle:LineSegment
-                    End="-23.5999994933607,31.6999992176891" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-23.5999994933607,31.6999992176891"
-                    Point2="-27.5999994933607,31.6999992176891"
-                    Point3="-27.5999994933607,35.6999992176891" />
-                  <mssgle:LineSegment
-                    End="-27.5999994933607,55.8999984353781" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-105.47701146543,36.6999992176891,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Source OLE DB"
+          TopLeft="593.99999114871,20.9999996870756" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Load_FactWomenEmpowerment\Destination OLE DB"
+          TopLeft="568.999991521239,395.99999409914" />
         <NodeLayout
           Size="238.4,41.6"
           Id="Package\Load_FactWomenEmpowerment\Lookup_GeographicalLocationDim"
@@ -12096,10 +13111,78 @@ FROM staging.stg_sdg1;</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Load_FactWomenEmpowerment\Destination OLE DB"
-          TopLeft="568.999991521239,395.99999409914" />
+        <EdgeLayout
+          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="718.399990463257,165.599998152256">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-27.5999994933607,63.3999984353781"
+              Start="0,0"
+              End="-27.5999994933607,55.8999984353781">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.6999992176891" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.6999992176891"
+                    Point2="0,31.6999992176891"
+                    Point3="-4,31.6999992176891" />
+                  <mssgle:LineSegment
+                    End="-23.5999994933607,31.6999992176891" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-23.5999994933607,31.6999992176891"
+                    Point2="-27.5999994933607,31.6999992176891"
+                    Point3="-27.5999994933607,35.6999992176891" />
+                  <mssgle:LineSegment
+                    End="-27.5999994933607,55.8999984353781" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-105.47701146543,36.6999992176891,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de source OLE DB]"
+          TopLeft="669.99999114871,62.5999996870756">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48.3999993145467,61.3999984651804"
+              Start="0,0"
+              End="48.3999993145467,53.8999984651804">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.6999992325902" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.6999992325902"
+                    Point2="0,30.6999992325902"
+                    Point3="4,30.6999992325902" />
+                  <mssgle:LineSegment
+                    End="44.3999993145467,30.6999992325902" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.3999993145467,30.6999992325902"
+                    Point2="48.3999993145467,30.6999992325902"
+                    Point3="48.3999993145467,34.6999992325902" />
+                  <mssgle:LineSegment
+                    End="48.3999993145467,53.8999984651804" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Load_FactWomenEmpowerment.Paths[Sortie de recherche avec correspondance2]"
           TopLeft="583.199993085861,352.599995365739">
